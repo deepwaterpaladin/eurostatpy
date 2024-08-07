@@ -1,4 +1,4 @@
 click
 pandas
-requests
+aiohttp
 terminaltables
