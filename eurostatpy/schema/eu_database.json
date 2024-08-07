@@ -1,0 +1,1882 @@
+{
+    "Transport": [
+        {
+            "Air transport": [
+                {
+                    "Air transport infrastructure": [
+                        {
+                            "Commercial airports by type": "avia_if_arp"
+                        },
+                        {
+                            "Airport infrastructures by type": "avia_if_typ"
+                        },
+                        {
+                            "Airport connections to transport infrastructure": "avia_if_arp_co"
+                        }
+                    ]
+                },
+                {
+                    "Air transport equipment": [
+                        {
+                            "Commercial aircraft fleet by aircraft category and country of operator": "avia_eq_arc_typ"
+                        },
+                        {
+                            "Commercial aircraft fleet by age of aircraft and country of operator": "avia_eq_arc_age"
+                        },
+                        {
+                            "Commercial aircraft fleet by aircraft category and country of registration": "avia_eq_arc_typreg"
+                        },
+                        {
+                            "Commercial aircraft fleet by age of aircraft and country of registration": "avia_eq_arc_agereg"
+                        }
+                    ]
+                },
+                {
+                    "Air transport - Enterprises and persons employed": [
+                        {
+                            "Aviation and airport enterprises": "avia_ec_enterp"
+                        },
+                        {
+                            "Persons employed in aviation and airport enterprises by sex": "avia_ec_emp_ent"
+                        },
+                        {
+                            "Persons employed in main airports by sex": "avia_ec_emp_arp"
+                        }
+                    ]
+                },
+                {
+                    "Air transport measurement - passengers": [
+                        {
+                            "Air passenger transport by type of schedule, transport coverage and country": "avia_paoc"
+                        },
+                        {
+                            "Air passenger transport by type of schedule, transport coverage and main airports": "avia_paoa"
+                        },
+                        {
+                            "Air passenger transport between reporting countries": "avia_paocc"
+                        },
+                        {
+                            "Air passenger transport between main airports and partner reporting countries": "avia_paoac"
+                        },
+                        {
+                            "Air passenger transport by aircraft model, distance bands and transport coverage": "avia_paodis"
+                        }
+                    ]
+                },
+                {
+                    "National air passenger transport by country and airports": [
+                        {
+                            "National air passenger transport by reporting country": "avia_panc"
+                        },
+                        {
+                            "National air passenger transport by main airports": "avia_pana"
+                        }
+                    ]
+                },
+                {
+                    "International intra-EU air passenger transport by country and airports": [
+                        {
+                            "International intra-EU air passenger transport by reporting country and EU partner country": "avia_paincc"
+                        },
+                        {
+                            "International intra-EU air passenger transport between main airports and EU partner countries": "avia_painac"
+                        }
+                    ]
+                },
+                {
+                    "International extra-EU air passenger transport by country and airports": [
+                        {
+                            "International extra-EU air passenger transport by reporting country and partner world regions and countries": "avia_paexcc"
+                        },
+                        {
+                            "International extra-EU air passenger transport between main airports and partner world regions and countries": "avia_paexac"
+                        }
+                    ]
+                },
+                {
+                    "Detailed air passenger transport routes by country": [
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Belgium": "avia_par_be"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Bulgaria": "avia_par_bg"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Czechia": "avia_par_cz"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Denmark": "avia_par_dk"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Germany": "avia_par_de"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Estonia": "avia_par_ee"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Ireland": "avia_par_ie"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Greece": "avia_par_el"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Spain": "avia_par_es"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in France": "avia_par_fr"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Croatia": "avia_par_hr"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Italy": "avia_par_it"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Cyprus": "avia_par_cy"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Latvia": "avia_par_lv"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Lithuania": "avia_par_lt"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Luxembourg": "avia_par_lu"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Hungary": "avia_par_hu"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Malta": "avia_par_mt"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in the Netherlands": "avia_par_nl"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Austria": "avia_par_at"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Poland": "avia_par_pl"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Portugal": "avia_par_pt"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Romania": "avia_par_ro"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Slovenia": "avia_par_si"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Slovakia": "avia_par_sk"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Finland": "avia_par_fi"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Sweden": "avia_par_se"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Iceland": "avia_par_is"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Norway": "avia_par_no"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Switzerland": "avia_par_ch"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in the United Kingdom": "avia_par_uk"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Bosnia and Herzegovina": "avia_par_ba"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Montenegro": "avia_par_me"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in North Macedonia": "avia_par_mk"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Türkiye": "avia_par_tr"
+                        },
+                        {
+                            "Air passenger transport routes between partner airports and main airports in Serbia": "avia_par_rs"
+                        }
+                    ]
+                },
+                {
+                    "Air transport measurement - freight and mail": [
+                        {
+                            "Overview of the freight and mail air transport by country and airports": "avia_goo"
+                        },
+                        {
+                            "Freight and mail air transport by type of schedule, transport coverage and country": "avia_gooc"
+                        },
+                        {
+                            "Fright and mail air transport by type of schedule, transport coverage and main airports": "avia_gooa"
+                        },
+                        {
+                            "Freight and mail air transport between reporting countries": "avia_goocc"
+                        },
+                        {
+                            "Freight and mail air transport between main airports and partner reporting countries": "avia_gooac"
+                        },
+                        {
+                            "Freight and mail air transport by aircraft model, distance bands and transport coverage": "avia_goodis"
+                        }
+                    ]
+                },
+                {
+                    "National freight and mail air transport by country and airports": [
+                        {
+                            "National freight and mail air transport by reporting country": "avia_gonc"
+                        },
+                        {
+                            "National freight and mail air transport by main airports": "avia_gona"
+                        }
+                    ]
+                },
+                {
+                    "International intra-EU freight and mail air transport by country and airports": [
+                        {
+                            "International intra-EU freight and mail air transport by reporting country and EU partner country": "avia_goincc"
+                        },
+                        {
+                            "International intra-EU freight and mail air transport between main airports and EU partner countries": "avia_goinac"
+                        }
+                    ]
+                },
+                {
+                    "International extra-EU freight and mail air transport by country and airports": [
+                        {
+                            "International extra-EU freight and mail air transport by reporting country and partner world regions and countries": "avia_goexcc"
+                        },
+                        {
+                            "International extra-EU freight and mail air transport between main airports and partner world regions and countries": "avia_goexac"
+                        }
+                    ]
+                },
+                {
+                    "Detailed freight and mail air transport by reporting country and routes": [
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Belgium": "avia_gor_be"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Bulgaria": "avia_gor_bg"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Czechia": "avia_gor_cz"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Denmark": "avia_gor_dk"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Germany": "avia_gor_de"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Estonia": "avia_gor_ee"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Ireland": "avia_gor_ie"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Greece": "avia_gor_el"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Spain": "avia_gor_es"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in France": "avia_gor_fr"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Croatia": "avia_gor_hr"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Italy": "avia_gor_it"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Cyprus": "avia_gor_cy"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Latvia": "avia_gor_lv"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Lithuania": "avia_gor_lt"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Luxembourg": "avia_gor_lu"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Hungary": "avia_gor_hu"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Malta": "avia_gor_mt"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in the Netherlands": "avia_gor_nl"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Austria": "avia_gor_at"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Poland": "avia_gor_pl"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Portugal": "avia_gor_pt"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Romania": "avia_gor_ro"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Slovenia": "avia_gor_si"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Slovakia": "avia_gor_sk"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Finland": "avia_gor_fi"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Sweden": "avia_gor_se"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Iceland": "avia_gor_is"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Norway": "avia_gor_no"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Switzerland": "avia_gor_ch"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in the United Kingdom": "avia_gor_uk"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Bosnia and Herzegovina": "avia_gor_ba"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Montenegro": "avia_gor_me"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in North Macedonia": "avia_gor_mk"
+                        },
+                        {
+                            "Freight and mail air transport routes between partner airports and main airports in Serbia": "avia_gor_rs"
+                        }
+                    ]
+                },
+                {
+                    "Air transport measurement - data by aircraft, airline licence (EU or non-EU), airport and country": [
+                        {
+                            "Aircraft traffic data by reporting country": "avia_tf_acc"
+                        },
+                        {
+                            "Air transport by aircraft model, transport coverage and main airports": "avia_tf_aca"
+                        },
+                        {
+                            "Air transport by airline licence (EU or non-EU), main airports and transport coverage": "avia_tf_ala"
+                        },
+                        {
+                            "Air transport by airline licence (EU or non-EU) and reporting airports": "avia_tf_apal"
+                        },
+                        {
+                            "Commercial flights by reporting airport and type of schedule – monthly data (source: Eurocontrol)": "avia_tf_airpm"
+                        },
+                        {
+                            "Commercial flights by reporting country and type of schedule – monthly data (source: Eurocontrol)": "avia_tf_cm"
+                        }
+                    ]
+                },
+                {
+                    "Air transport performance": [
+                        {
+                            "Passenger air transport over national territory (including territorial sea) - million passenger-km": "avia_tppa"
+                        },
+                        {
+                            "Freight and mail air transport over national territory (including territorial sea) - million tonne-km": "avia_tpgo"
+                        }
+                    ]
+                },
+                {
+                    "Air transport - regional statistics": [
+                        {
+                            "Air transport of passengers by NUTS 2 regions": "tran_r_avpa_nm"
+                        },
+                        {
+                            "Air transport of freight by NUTS 2 regions": "tran_r_avgo_nm"
+                        }
+                    ]
+                }
+            ],
+            "Railway transport": [
+                {
+                    "Railway transport infrastructure": [
+                        {
+                            "Length of railway tracks by electrification of tracks": "rail_if_tracks"
+                        },
+                        {
+                            "Length of railway lines by number of tracks and electrification of lines": "rail_if_line_tr"
+                        },
+                        {
+                            "Length of electrified and non-electrified railway lines by track gauge": "rail_if_line_ga"
+                        },
+                        {
+                            "Length of electric and non-electric railway lines by nature of transport": "rail_if_line_na"
+                        },
+                        {
+                            "Length of electrified railway lines by type of current": "rail_if_electri"
+                        },
+                        {
+                            "Length of railway lines by maximum permitted speed": "rail_if_line_sp"
+                        },
+                        {
+                            "Length of railway lines equipped with the railway traffic management system by type of signalling": "rail_if_traff"
+                        },
+                        {
+                            "Level crossings by type": "rail_if_lvlcros"
+                        }
+                    ]
+                },
+                {
+                    "Railway transport equipment": [
+                        {
+                            "Locomotives and railcars by source of energy": "rail_eq_locon"
+                        },
+                        {
+                            "Tractive power of locomotives and railcars by source of energy": "rail_eq_locop"
+                        },
+                        {
+                            "Passenger railway vehicles, by type of vehicle": "rail_eq_pa_nty"
+                        },
+                        {
+                            "Passenger railway vehicles by category of vehicle (until 2012)": "rail_eq_pa_nca"
+                        },
+                        {
+                            "Seat capacity of passenger railway vehicles by type of vehicles": "rail_eq_pa_cty"
+                        },
+                        {
+                            "Seat/berth capacity of passenger railway vehicles": "rail_eq_pa_csb"
+                        },
+                        {
+                            "Railway transport vans": "rail_eq_vans"
+                        },
+                        {
+                            "Wagons and their load capacity by type of wagons": "rail_eq_wagon"
+                        },
+                        {
+                            "Trainsets and capacity by type of speed": "rail_eq_trset"
+                        }
+                    ]
+                },
+                {
+                    "Railway transport - enterprises, economic performances and employment": [
+                        {
+                            "Railway enterprises by type of enterprise": "rail_ec_ent"
+                        },
+                        {
+                            "Employment in principal railway enterprises, by type of railway activity (until 2012)": "rail_ec_emplo_a"
+                        },
+                        {
+                            "Persons employed in principal railway enterprises by sex (until 2012)": "rail_ec_emplo_s"
+                        },
+                        {
+                            "Expenditure on rolling stock and railway infrastructure": "rail_ec_expend"
+                        }
+                    ]
+                },
+                {
+                    "Railway transport measurement - passengers": [
+                        {
+                            "Passengers transported": "rail_pa_total"
+                        },
+                        {
+                            "Passengers transported (detailed reporting only) - (quarterly data)": "rail_pa_quartal"
+                        },
+                        {
+                            "Passenger transport by type of transport (detailed reporting only)": "rail_pa_typepas"
+                        },
+                        {
+                            "International transport of passengers from the reporting country to the country of disembarkation": "rail_pa_intgong"
+                        },
+                        {
+                            "International transport of passengers from the country of embarkation to the reporting country": "rail_pa_intcmng"
+                        },
+                        {
+                            "Railway transport - national and international railway passengers transport by loading/unloading NUTS 2 region": "tran_r_rapa"
+                        },
+                        {
+                            "Passengers transported by type of train speed": "rail_pa_speed"
+                        },
+                        {
+                            "Passenger cars in accompanied passenger car railway transport, by type of transport": "rail_pa_nbcar"
+                        },
+                        {
+                            "Passengers in accompanied passenger car railway transport, by type of transport": "rail_pa_nbpass"
+                        }
+                    ]
+                },
+                {
+                    "Railway transport measurement - goods": [
+                        {
+                            "Goods transported": "rail_go_total"
+                        },
+                        {
+                            "Goods transported (detailed reporting only ) - Quarterly data": "rail_go_quartal"
+                        },
+                        {
+                            "Goods transported by type of transport (detailed reporting only )": "rail_go_typepas"
+                        },
+                        {
+                            "Goods transported by group of goods - from 2008 onwards based on NST 2007": "rail_go_grpgood"
+                        },
+                        {
+                            "Goods transported by group of goods - until 2007 based on NST/R": "rail_go_grgood7"
+                        },
+                        {
+                            "Goods transported by type of consignment": "rail_go_consgmt"
+                        },
+                        {
+                            "International transport of goods from the loading country to the reporting country": "rail_go_intcmgn"
+                        },
+                        {
+                            "International transport of goods from the reporting country to the unloading country": "rail_go_intgong"
+                        },
+                        {
+                            "Transit transport of goods by loading and unloading countries": "rail_go_trsorde"
+                        },
+                        {
+                            "Railway transport - national and international railway goods transport by loading/unloading NUTS 2 region": "tran_r_rago"
+                        },
+                        {
+                            "Transport of dangerous goods": "rail_go_dnggood"
+                        },
+                        {
+                            "Goods transported in intermodal transport units": "rail_go_contwgt"
+                        },
+                        {
+                            "Empty and loaded intermodal transport units": "rail_go_itu"
+                        },
+                        {
+                            "Volume of containers transported": "rail_go_contnbr"
+                        },
+                        {
+                            "Goods transported by type of transport (2004-2016)": "rail_go_typeall"
+                        }
+                    ]
+                },
+                {
+                    "Railway transport measurement - goods - historical data (1982-2002)": [
+                        {
+                            "International transport of goods from the loading country to the reporting country (Monthly data) (1982-2002)": "rail_go_intld"
+                        },
+                        {
+                            "International transport of goods from the reporting country to the unloading country (Monthly data) (1982-2002)": "rail_go_intunld"
+                        },
+                        {
+                            "National transport of goods by distance class and group of goods (1982-2002)": "rail_go_natdist"
+                        },
+                        {
+                            "National transport (Directive 80/1177/EEC) (monthly data) (1982-2002)": "rail_go_natmnth"
+                        },
+                        {
+                            "National transport by loading region and by group of goods (Directive 80/1177/EEC) (1982-2002)": "rail_go_natlreg"
+                        },
+                        {
+                            "National transport of goods by unloading region and by group of goods (1982-2002)": "rail_go_natureg"
+                        },
+                        {
+                            "Transit transport by group of goods (1982-2002)": "rail_go_trsggds"
+                        },
+                        {
+                            "Transport of containers or road vehicles (1982-2002)": "rail_go_contold"
+                        }
+                    ]
+                },
+                {
+                    "Railway traffic": [
+                        {
+                            "Train traffic performance by train category and source of energy": "rail_tf_traveh"
+                        },
+                        {
+                            "Passenger train traffic performance by type of train speed": "rail_tf_passmov"
+                        },
+                        {
+                            "Hauled railway vehicle traffic performance by train category and source of energy (gross tkm hauled)": "rail_tf_haulmov"
+                        },
+                        {
+                            "Hauled railway vehicle traffic performance by type of railway vehicle (vehicle-km)": "rail_tf_hautype"
+                        },
+                        {
+                            "Goods and passenger train traffic performance": "rail_tf_trainmv"
+                        },
+                        {
+                            "Train traffic on the rail network (2020)": [
+                                {
+                                    "Train traffic on the rail network - Bulgaria (2020)": "rail_tf_ns20_bg"
+                                },
+                                {
+                                    "Train traffic on the rail network - Czechia (2020)": "rail_tf_ns20_cz"
+                                },
+                                {
+                                    "Train traffic on the rail network - Germany (2020)": "rail_tf_ns20_de"
+                                },
+                                {
+                                    "Train traffic on the rail network - Denmark (2020)": "rail_tf_ns20_dk"
+                                },
+                                {
+                                    "Train traffic on the rail network - Estonia (2020)": "rail_tf_ns20_ee"
+                                },
+                                {
+                                    "Train traffic on the rail network - Spain (2020)": "rail_tf_ns20_es"
+                                },
+                                {
+                                    "Train traffic on the rail network - Ireland (2020)": "rail_tf_ns20_ie"
+                                },
+                                {
+                                    "Train traffic on the rail network - Greece (2020)": "rail_tf_ns20_el"
+                                },
+                                {
+                                    "Train traffic on the rail network - France (2020)": "rail_tf_ns20_fr"
+                                },
+                                {
+                                    "Train traffic on the rail network - Italy (2020)": "rail_tf_ns20_it"
+                                },
+                                {
+                                    "Train traffic on the rail network - Croatia (2020)": "rail_tf_ns20_hr"
+                                },
+                                {
+                                    "Train traffic on the rail network - Lithuania (2020)": "rail_tf_ns20_lt"
+                                },
+                                {
+                                    "Train traffic on the rail network - Latvia (2020)": "rail_tf_ns20_lv"
+                                },
+                                {
+                                    "Train traffic on the rail network - Luxembourg (2020)": "rail_tf_ns20_lu"
+                                },
+                                {
+                                    "Train traffic on the rail network - Hungary (2020)": "rail_tf_ns20_hu"
+                                },
+                                {
+                                    "Train traffic on the rail network - Netherlands (2020)": "rail_tf_ns20_nl"
+                                },
+                                {
+                                    "Train traffic on the rail network - Portugal (2020)": "rail_tf_ns20_pt"
+                                },
+                                {
+                                    "Train traffic on the rail network - Poland (2020)": "rail_tf_ns20_pl"
+                                },
+                                {
+                                    "Train traffic on the rail network - Romania (2020)": "rail_tf_ns20_ro"
+                                },
+                                {
+                                    "Train traffic on the rail network - Slovenia (2020)": "rail_tf_ns20_si"
+                                },
+                                {
+                                    "Train traffic on the rail network - Slovakia (2020)": "rail_tf_ns20_sk"
+                                },
+                                {
+                                    "Train traffic on the rail network - Finland (2020)": "rail_tf_ns20_fi"
+                                },
+                                {
+                                    "Train traffic on the rail network - Sweden (2020)": "rail_tf_ns20_se"
+                                },
+                                {
+                                    "Train traffic on the rail network - Norway (2020)": "rail_tf_ns20_no"
+                                },
+                                {
+                                    "Train traffic on the rail network - Switzerland (2020)": "rail_tf_ns20_ch"
+                                },
+                                {
+                                    "Train traffic on the rail network - Türkiye (2020)": "rail_tf_ns20_tr"
+                                },
+                                {
+                                    "Train traffic on the rail network - Austria (2020)": "rail_tf_ns20_at"
+                                },
+                                {
+                                    "Train traffic on the rail network - North Macedonia (2020)": "rail_tf_ns20_mk"
+                                }
+                            ]
+                        },
+                        {
+                            "Train traffic on the rail network (2015)": [
+                                {
+                                    "Train traffic on the rail network - Belgium (2015)": "rail_tf_ns15_be"
+                                },
+                                {
+                                    "Train traffic on the rail network - Bulgaria (2015)": "rail_tf_ns15_bg"
+                                },
+                                {
+                                    "Train traffic on the rail network - Czechia (2015)": "rail_tf_ns15_cz"
+                                },
+                                {
+                                    "Train traffic on the rail network - Germany (2015)": "rail_tf_ns15_de"
+                                },
+                                {
+                                    "Train traffic on the rail network - Denmark (2015)": "rail_tf_ns15_dk"
+                                },
+                                {
+                                    "Train traffic on the rail network - Estonia (2015)": "rail_tf_ns15_ee"
+                                },
+                                {
+                                    "Train traffic on the rail network - Spain (2015)": "rail_tf_ns15_es"
+                                },
+                                {
+                                    "Train traffic on the rail network - Finland (2015)": "rail_tf_ns15_fi"
+                                },
+                                {
+                                    "Train traffic on the rail network - France (2015)": "rail_tf_ns15_fr"
+                                },
+                                {
+                                    "Train traffic on the rail network - Croatia (2015)": "rail_tf_ns15_hr"
+                                },
+                                {
+                                    "Train traffic on the rail network - Hungary (2015)": "rail_tf_ns15_hu"
+                                },
+                                {
+                                    "Train traffic on the rail network - Ireland (2015)": "rail_tf_ns15_ie"
+                                },
+                                {
+                                    "Train traffic on the rail network - Italy (2015)": "rail_tf_ns15_it"
+                                },
+                                {
+                                    "Train traffic on the rail network - Lithuania (2015)": "rail_tf_ns15_lt"
+                                },
+                                {
+                                    "Train traffic on the rail network - Luxembourg (2015)": "rail_tf_ns15_lu"
+                                },
+                                {
+                                    "Train traffic on the rail network - Latvia (2015)": "rail_tf_ns15_lv"
+                                },
+                                {
+                                    "Train traffic on the rail network - Netherlands (2015)": "rail_tf_ns15_nl"
+                                },
+                                {
+                                    "Train traffic on the rail network - Poland (2015)": "rail_tf_ns15_pl"
+                                },
+                                {
+                                    "Train traffic on the rail network - Portugal (2015)": "rail_tf_ns15_pt"
+                                },
+                                {
+                                    "Train traffic on the rail network - Romania (2015)": "rail_tf_ns15_ro"
+                                },
+                                {
+                                    "Train traffic on the rail network - Sweden (2015)": "rail_tf_ns15_se"
+                                },
+                                {
+                                    "Train traffic on the rail network - Slovenia (2015)": "rail_tf_ns15_si"
+                                },
+                                {
+                                    "Train traffic on the rail network - Slovakia (2015)": "rail_tf_ns15_sk"
+                                },
+                                {
+                                    "Train traffic on the rail network - Turkey (2015)": "rail_tf_ns15_tr"
+                                },
+                                {
+                                    "Train traffic on the rail network - North Macedonia (2015)": "rail_tf_ns15_mk"
+                                }
+                            ]
+                        },
+                        {
+                            "Train traffic on the rail network (2010)": [
+                                {
+                                    "Train traffic on the rail network - Belgium (2010)": "rail_tf_ns10_be"
+                                },
+                                {
+                                    "Train traffic on the rail network - Bulgaria (2010)": "rail_tf_ns10_bg"
+                                },
+                                {
+                                    "Train traffic on the rail network - Czechia (2010)": "rail_tf_ns10_cz"
+                                },
+                                {
+                                    "Train traffic on the rail network - Germany (2010)": "rail_tf_ns10_de"
+                                },
+                                {
+                                    "Train traffic on the rail network - Denmark (2010)": "rail_tf_ns10_dk"
+                                },
+                                {
+                                    "Train traffic on the rail network - Estonia (2010)": "rail_tf_ns10_ee"
+                                },
+                                {
+                                    "Train traffic on the rail network - Spain (2010)": "rail_tf_ns10_es"
+                                },
+                                {
+                                    "Train traffic on the rail network - Finland (2010)": "rail_tf_ns10_fi"
+                                },
+                                {
+                                    "Train traffic on the rail network - France (2010)": "rail_tf_ns10_fr"
+                                },
+                                {
+                                    "Train traffic on the rail network - Croatia (2010)": "rail_tf_ns10_hr"
+                                },
+                                {
+                                    "Train traffic on the rail network - Hungary (2010)": "rail_tf_ns10_hu"
+                                },
+                                {
+                                    "Train traffic on the rail network - Ireland (2010)": "rail_tf_ns10_ie"
+                                },
+                                {
+                                    "Train traffic on the rail network - Italy (2010)": "rail_tf_ns10_it"
+                                },
+                                {
+                                    "Train traffic on the rail network - Lithuania (2010)": "rail_tf_ns10_lt"
+                                },
+                                {
+                                    "Train traffic on the rail network - Luxembourg (2010)": "rail_tf_ns10_lu"
+                                },
+                                {
+                                    "Train traffic on the rail network - Latvia (2010)": "rail_tf_ns10_lv"
+                                },
+                                {
+                                    "Train traffic on the rail network - Netherlands (2010)": "rail_tf_ns10_nl"
+                                },
+                                {
+                                    "Train traffic on the rail network - Poland (2010)": "rail_tf_ns10_pl"
+                                },
+                                {
+                                    "Train traffic on the rail network - Portugal (2010)": "rail_tf_ns10_pt"
+                                },
+                                {
+                                    "Train traffic on the rail network - Romania (2010)": "rail_tf_ns10_ro"
+                                },
+                                {
+                                    "Train traffic on the rail network - Sweden (2010)": "rail_tf_ns10_se"
+                                },
+                                {
+                                    "Train traffic on the rail network - Slovenia (2010)": "rail_tf_ns10_si"
+                                },
+                                {
+                                    "Train traffic on the rail network - Slovakia (2010)": "rail_tf_ns15_sk"
+                                },
+                                {
+                                    "Train traffic on the rail network - Turkey (2010)": "rail_tf_ns10_tr"
+                                },
+                                {
+                                    "Train traffic on the rail network - North Macedonia (2010)": "rail_tf_ns10_mk"
+                                }
+                            ]
+                        },
+                        {
+                            "Train traffic on the rail network (2005)": [
+                                {
+                                    "Train traffic on the rail network - Belgium (2005)": "rail_tf_ns_be"
+                                },
+                                {
+                                    "Train traffic on the rail network - Bulgaria (2005)": "rail_tf_ns_bg"
+                                },
+                                {
+                                    "Train traffic on the rail network - Czechia (2005)": "rail_tf_ns_cz"
+                                },
+                                {
+                                    "Train traffic on the rail network - Germany (2005)": "rail_tf_ns_de"
+                                },
+                                {
+                                    "Train traffic on the rail network - Denmark (2005)": "rail_tf_ns_dk"
+                                },
+                                {
+                                    "Train traffic on the rail network - Estonia (2005)": "rail_tf_ns_ee"
+                                },
+                                {
+                                    "Train traffic on the rail network - Spain (2005)": "rail_tf_ns_es"
+                                },
+                                {
+                                    "Train traffic on the rail network - Finland (2005)": "rail_tf_ns_fi"
+                                },
+                                {
+                                    "Train traffic on the rail network - France (2005)": "rail_tf_ns_fr"
+                                },
+                                {
+                                    "Train traffic on the rail network - Croatia (2005)": "rail_tf_ns_hr"
+                                },
+                                {
+                                    "Train traffic on the rail network - Hungary (2005)": "rail_tf_ns_hu"
+                                },
+                                {
+                                    "Train traffic on the rail network - Ireland (2005)": "rail_tf_ns_ie"
+                                },
+                                {
+                                    "Train traffic on the rail network - Italy (2005)": "rail_tf_ns_it"
+                                },
+                                {
+                                    "Train traffic on the rail network - Lithuania (2005)": "rail_tf_ns_lt"
+                                },
+                                {
+                                    "Train traffic on the rail network - Luxembourg (2005)": "rail_tf_ns_lu"
+                                },
+                                {
+                                    "Train traffic on the rail network - Latvia (2005)": "rail_tf_ns_lv"
+                                },
+                                {
+                                    "Train traffic on the rail network - Netherlands (2005)": "rail_tf_ns_nl"
+                                },
+                                {
+                                    "Train traffic on the rail network - Poland (2005)": "rail_tf_ns_pl"
+                                },
+                                {
+                                    "Train traffic on the rail network - Portugal (2005)": "rail_tf_ns_pt"
+                                },
+                                {
+                                    "Train traffic on the rail network - Romania (2005)": "rail_tf_ns_ro"
+                                },
+                                {
+                                    "Train traffic on the rail network - Sweden (2005)": "rail_tf_ns_se"
+                                },
+                                {
+                                    "Train traffic on the rail network - Slovenia (2005)": "rail_tf_ns_si"
+                                },
+                                {
+                                    "Train traffic on the rail network - Slovakia (2005)": "rail_tf_ns_sk"
+                                },
+                                {
+                                    "Train traffic on the rail network - Turkey (2005)": "rail_tf_ns_tr"
+                                },
+                                {
+                                    "Train traffic on the rail network - North Macedonia (2005)": "rail_tf_ns_mk"
+                                }
+                            ]
+                        },
+                        {
+                            "Railway traffic - historical data (1970 - 2012)": [
+                                {
+                                    "Hauled passenger railway vehicle traffic performance by type of railway vehicle speed - seat km (until 2012)": "rail_tf_hauseat"
+                                },
+                                {
+                                    "Hauled vehicle traffic performance - tkm (until 2012)": "rail_tf_hautkmo"
+                                },
+                                {
+                                    "Vehicle traffic performance by type of tractive vehicle and source of energy (until 2012)": "rail_tf_vehimov"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Railway transport accidents - historical data (2004-2015)": [
+                        {
+                            "Railway victims by type of accident - annual data": "rail_ac_catvict"
+                        },
+                        {
+                            "Railway accidents by type of accident - annual data": "rail_ac_catnmbr"
+                        },
+                        {
+                            "Accidents involving the transport of dangerous goods - annual data": "rail_ac_dnggood"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "International trade": [
+        {
+            "International trade in goods - trade by enterprise characteristics (TEC) (ext_tec)": [
+                {
+                    "Trade by NACE Rev. 2 activity and enterprise size class": "ext_tec01"
+                },
+                {
+                    "Concentration of trade by NACE Rev. 2 activity": "ext_tec02"
+                },
+                {
+                    "Trade by partner country and NACE Rev. 2 activity": "ext_tec03"
+                },
+                {
+                    "Trade by number of partner countries and NACE Rev. 2 activity": "ext_tec04"
+                },
+                {
+                    "Trade by commodity and NACE Rev. 2 activity": "ext_tec05"
+                },
+                {
+                    "Trade by type of trader": "ext_tec06"
+                },
+                {
+                    "Trade by type of ownership": "ext_tec07"
+                },
+                {
+                    "Trade by exports intensity": "ext_tec08"
+                },
+                {
+                    "Trade by NACE Rev. 2 activity sector": "ext_tec09"
+                },
+                {
+                    "Trade by partner country and enterprise size class": "ext_tec10"
+                }
+            ]
+        },
+        {
+            "International trade in goods - trade by invoicing currency (TIC) (ext_tic)": [
+                {
+                    "Trade shares by invoicing currency with additional currency and SITC product group breakdowns (from 2021 onwards)": "ext_tic02"
+                },
+                {
+                    "Trade shares by invoicing currency (from 2010 onwards)": "ext_lt_invcur"
+                }
+            ]
+        },
+        {
+            "International trade in services (ext_ser)": [
+                {
+                    "Services trade by broad economic categories (BEC Rev.5)": "ext_ser_bec01"
+                },
+                {
+                    "Services trade by enterprise characteristics (STEC) by NACE Rev.2 activities and enterprise size class": "ext_stec01"
+                },
+                {
+                    "Services trade by enterprise characteristics (STEC) by EBOPS 2010 items and NACE Rev.2 activities": "ext_stec02"
+                },
+                {
+                    "Services trade by enterprise characteristics (STEC) by NACE Rev.2 activities and type of ownership": "ext_stec03"
+                },
+                {
+                    "International supply of services by modes, type of product (EBOPS 2010) and partner country": "ext_ser_mos"
+                }
+            ]
+        }
+    ],
+    "Environment": [
+        {
+            "Emissions of greenhouse gases and air pollutants (env_air)": [
+                {
+                    "Air emissions accounts (env_air_aa)": [
+                        {
+                            "Air emissions accounts for greenhouse gases by NACE Rev. 2 activity - quarterly data": "env_ac_aigg_q"
+                        },
+                        {
+                            "Air emissions accounts by NACE Rev. 2 activity": "env_ac_ainah_r2"
+                        },
+                        {
+                            "Air emissions accounts related to road transport by NACE Rev. 2 activity": "env_ac_ainah_rd"
+                        },
+                        {
+                            "Air emissions accounts totals bridging to emission inventory totals": "env_ac_aibrid_r2"
+                        },
+                        {
+                            "Air emissions accounts related to road transport - totals bridging to emission inventory totals": "env_ac_aibrid_rd"
+                        },
+                        {
+                            "Air emissions intensities by NACE Rev. 2 activity": "env_ac_aeint_r2"
+                        }
+                    ]
+                },
+                {
+                    "Air emission inventories (env_air_ai)": [
+                        {
+                            "Air pollutants by source sector": "env_air_emis"
+                        },
+                        {
+                            "Air pollutants by source sector aggregated for indicator sets": "env_air_emis_ind"
+                        },
+                        {
+                            "Greenhouse gas emissions by source sector": "env_air_gge"
+                        },
+                        {
+                            "Nitrogen dioxide concentrations in European capital cities - monthly averages, experimental statistics": "env_air_no2"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Material flows and resource productivity (env_mrp)": [
+                {
+                    "Material flow accounts": "env_ac_mfa"
+                },
+                {
+                    "Material flow accounts - domestic processed output": "env_ac_mfadpo"
+                },
+                {
+                    "Material flow accounts - balancing items": "env_ac_mfabi"
+                },
+                {
+                    "Material flow accounts - main indicators": "env_ac_mfain"
+                },
+                {
+                    "Resource productivity": "env_ac_rp"
+                },
+                {
+                    "Material import dependency": "env_ac_mid"
+                },
+                {
+                    "Circular material use rate": "env_ac_cur"
+                },
+                {
+                    "Circular material use rate by material type": "env_ac_curm"
+                },
+                {
+                    "Material flows for circular economy - Sankey diagram data": "env_ac_sd"
+                },
+                {
+                    "Trade in recyclable raw materials by partner": "env_trdrrm"
+                }
+            ]
+        },
+        {
+            "Physical energy flow accounts (env_pefa)": [
+                {
+                    "Energy supply and use by NACE Rev. 2 activity": "env_ac_pefasu"
+                },
+                {
+                    "Key indicators of physical energy flow accounts by NACE Rev. 2 activity": "env_ac_pefa04"
+                },
+                {
+                    "Physical energy flow accounts totals bridging to energy balances totals": "env_ac_pefa05"
+                }
+            ]
+        },
+        {
+            "Environmental taxes (env_eta)": [
+                {
+                    "Environmental tax revenues": "env_ac_tax"
+                },
+                {
+                    "Energy taxes by paying sector": "env_ac_taxener"
+                },
+                {
+                    "Environmental taxes by economic activity (NACE Rev. 2)": "env_ac_taxind2"
+                }
+            ]
+        },
+        {
+            "Environmental protection expenditure (env_epe)": [
+                {
+                    "Environmental protection expenditure accounts (env_ac_epea)": [
+                        {
+                            "National expenditure on environmental protection by institutional sector": "env_ac_epneis1"
+                        },
+                        {
+                            "Environmental protection transfers by environmental protection activity and institutional sector": "env_ac_eptrf1"
+                        }
+                    ]
+                },
+                {
+                    "Environmental subsidies and similar transfers (env_esst)": [
+                        {
+                            "Environmental subsidies and similar transfers from general government, by environmental activity, sector of recipient and ESA category of transfer": "env_esst_gg"
+                        },
+                        {
+                            "Environmental subsidies and similar transfers from general government to corporations, by environmental activity, ESA category of transfer and NACE Rev. 2 activity of recipient": "env_esst_ggcp"
+                        },
+                        {
+                            "Environmental subsidies and similar transfers from the Rest of the World to the domestic economy, by environmental activity and ESA category of transfer": "env_esst_rw"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Environmental protection expenditure - historical data (env_epe_h)": [
+                {
+                    "Environmental protection expenditure accounts (until 2021)": "env_ac_epea_h"
+                },
+                {
+                    "Environmental protection expenditure and revenues (until 2013)": "env_eper_h"
+                },
+                {
+                    "Environmental protection expenditure - euro per inhabitant and % of GDP (1996-2013)": "env_ac_exp2"
+                },
+                {
+                    "Environmental protection expenditure - % of pollution prevention, % of gross fixed capital formation, % of output (1996-2013)": "env_ac_exp3"
+                },
+                {
+                    "Environmental protection expenditure - million euro and million units of national currency (1996-2013)": "env_ac_exp1r2"
+                }
+            ]
+        },
+        {
+            "Environmental goods and services sector (env_egs)": [
+                {
+                    "Employment in the environmental goods and services sector": "env_ac_egss1"
+                },
+                {
+                    "Production, value added and exports in the environmental goods and services sector": "env_ac_egss2"
+                },
+                {
+                    "Production, value added and employment by industry groups in the environmental goods and services sector": "env_ac_egss3"
+                }
+            ]
+        },
+        {
+            "Waste (env_was)": [
+                {
+                    "Waste generation and treatment (env_wasgt)": [
+                        {
+                            "Generation of waste by waste category, hazardousness and NACE Rev. 2 activity": "env_wasgen"
+                        },
+                        {
+                            "Treatment of waste by waste category, hazardousness and waste management operations": "env_wastrt"
+                        },
+                        {
+                            "Management of waste excluding major mineral waste, by waste management operations": "env_wasoper"
+                        },
+                        {
+                            "Management of waste excluding major mineral waste, by waste management operations and waste flow": "env_wasflow"
+                        },
+                        {
+                            "Number and capacity of recovery and disposal facilities by NUTS 2 regions": "env_wasfac"
+                        },
+                        {
+                            "Management of waste by waste management operations and type of material - Sankey diagram data": "env_wassd"
+                        }
+                    ]
+                },
+                {
+                    "Waste streams (env_wasst)": [
+                        {
+                            "Food waste and food waste prevention by NACE Rev. 2 activity - tonnes of fresh mass": "env_wasfw"
+                        },
+                        {
+                            "Trade in waste by type of material and partner": "env_wastrdmp"
+                        },
+                        {
+                            "Packaging waste by waste management operations": "env_waspac"
+                        },
+                        {
+                            "Recycling rates of packaging waste for monitoring compliance with policy targets, by type of packaging": "env_waspacr"
+                        },
+                        {
+                            "Consumption of lightweight plastic carrier bags by their wall thickness": "env_waspcb"
+                        },
+                        {
+                            "Waste electrical and electronic equipment (WEEE) by waste management operations - open scope, 6 product categories (from 2018 onwards)": "env_waseleeos"
+                        },
+                        {
+                            "Waste electrical and electronic equipment (WEEE) by waste management operations": "env_waselee"
+                        },
+                        {
+                            "Sales and collection of portable batteries and accumulators": "env_waspb"
+                        },
+                        {
+                            "Recycling of batteries and accumulators": "env_wasbat"
+                        },
+                        {
+                            "End-of-life vehicles by waste management operations - detailed data": "env_waselv"
+                        },
+                        {
+                            "End-of-life vehicles - reuse, recycling and recovery, totals": "env_waselvt"
+                        },
+                        {
+                            "Transboundary shipments of notified waste by partner, hazardousness and waste management operations": "env_wasship"
+                        },
+                        {
+                            "Municipal waste by waste management operations": "env_wasmun"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Water (env_wat)": [
+                {
+                    "Water statistics on national level (env_nwat)": [
+                        {
+                            "Renewable freshwater resources": "env_wat_res"
+                        },
+                        {
+                            "Annual freshwater abstraction by source and sector": "env_wat_abs"
+                        },
+                        {
+                            "Water made available for use": "env_wat_use"
+                        },
+                        {
+                            "Population connected to public water supply": "env_wat_pop"
+                        },
+                        {
+                            "Water use by supply category and economical sector": "env_wat_cat"
+                        },
+                        {
+                            "Water use in the manufacturing industry by activity and supply category": "env_wat_ind"
+                        },
+                        {
+                            "Water use balance": "env_wat_bal"
+                        },
+                        {
+                            "Population connected to wastewater treatment plants": "env_ww_con"
+                        },
+                        {
+                            "Sewage sludge production and disposal": "env_ww_spd"
+                        },
+                        {
+                            "Generation and discharge of wastewater in volume": "env_ww_genv"
+                        },
+                        {
+                            "Generation and discharge of wastewater by pollutant": "env_ww_genp"
+                        },
+                        {
+                            "Renewable freshwater resources – long term annual averages": "env_wat_ltaa"
+                        }
+                    ]
+                },
+                {
+                    "Water statistics on river basin level (env_rwat)": [
+                        {
+                            "Freshwater resources by river basin district (RBD)": "env_watres_rb"
+                        },
+                        {
+                            "Water abstraction by river basin district (RBD)": "env_watabs_rb"
+                        },
+                        {
+                            "Water use by river basin district (RBD)": "env_watuse_rb"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Chemicals (env_chm)": [
+                {
+                    "Production and consumption of chemicals by hazard class": "env_chmhaz"
+                }
+            ]
+        },
+        {
+            "Biodiversity (env_biodiv)": [
+                {
+                    "Natura 2000 protected areas": "env_bio1"
+                },
+                {
+                    "Common farmland bird index": "env_bio2"
+                },
+                {
+                    "Common bird indices by type of estimate": "env_bio3"
+                },
+                {
+                    "Protected areas": "env_bio4"
+                },
+                {
+                    "Proportion of fish stocks sustainably exploited": "env_bio5"
+                }
+            ]
+        },
+        {
+            "Environmental footprints – modelling results (env_fp)": [
+                {
+                    "Greenhouse gas emission footprints (in CO2 equivalent, FIGARO application)": "env_ac_ghgfp"
+                },
+                {
+                    "Carbon dioxide emission footprints (FIGARO application)": "env_ac_co2fp"
+                },
+                {
+                    "Methane emission footprints (CH4 in CO2 equivalent, FIGARO application)": "env_ac_ch4fp"
+                },
+                {
+                    "Nitrous oxide emission footprints (N2O in CO2 equivalent, FIGARO application)": "env_ac_n2ofp"
+                },
+                {
+                    "Hydrofluorocarbon emission footprints (HFC in CO2 equivalent, FIGARO application)": "env_ac_hfcfp"
+                },
+                {
+                    "Perfluorocarbon emission footprints (PFC in CO2 equivalent, FIGARO application)": "env_ac_pfcfp"
+                },
+                {
+                    "Nitrogen trifluoride and sulphur hexafluoride emission footprints (NF3-SF6 in CO2 equivalent, FIGARO application)": "env_ac_nf3sf6fp"
+                },
+                {
+                    "Air emission footprints (domestic technology assumption)": "env_ac_io10"
+                },
+                {
+                    "Material footprints - main indicators": "env_ac_rme"
+                },
+                {
+                    "Material footprints - details by final use of products": "env_ac_rmefd"
+                },
+                {
+                    "Land use footprints": "env_ac_landfp"
+                },
+                {
+                    "Energy footprints (domestic technology assumption)": "env_ac_pefafp"
+                }
+            ]
+        }
+    ],
+    "Energy": [
+        {
+            "Energy statistics - quantities (nrg_quant)": [
+                {
+                    "Energy statistics - quantities, annual data": "nrg_quanta"
+                }
+            ]
+        },
+        {
+            "Energy balances (nrg_bal)": [
+                {
+                    "Simplified energy balances": "nrg_bal_s"
+                },
+                {
+                    "Complete energy balances": "nrg_bal_c"
+                },
+                {
+                    "Calorific values": "nrg_bal_cv"
+                },
+                {
+                    "Production of electricity and derived heat by type of fuel": "nrg_bal_peh"
+                },
+                {
+                    "Energy flow - Sankey diagram data": "nrg_bal_sd"
+                }
+            ]
+        },
+        {
+            "Supply, transformation and consumption - commodity balances (nrg_cb)": [
+                {
+                    "Supply, transformation and consumption of solid fossil fuels": "nrg_cb_sff"
+                },
+                {
+                    "Supply, transformation and consumption of gas": "nrg_cb_gas"
+                },
+                {
+                    "Supply, transformation and consumption of oil and petroleum products": "nrg_cb_oil"
+                },
+                {
+                    "Supply, transformation and consumption of renewables and wastes": "nrg_cb_rw"
+                },
+                {
+                    "Supply, transformation and consumption of electricity": "nrg_cb_e"
+                },
+                {
+                    "Supply, transformation and consumption of derived heat": "nrg_cb_h"
+                },
+                {
+                    "Supply of biomass - annual data": "nrg_cb_bm"
+                }
+            ]
+        },
+        {
+            "Disaggregated final energy consumption (nrg_d)": [
+                {
+                    "Disaggregated final energy consumption in households - quantities": "nrg_d_hhq"
+                },
+                {
+                    "Disaggregated final energy consumption in households - calorific values": "nrg_d_hhcv"
+                },
+                {
+                    "Disaggregated final energy consumption in industry by NACE Rev. 2 activity – quantities": "nrg_d_indq_n"
+                },
+                {
+                    "Disaggregated final energy consumption in industry - calorific values": "nrg_d_indcv"
+                }
+            ]
+        },
+        {
+            "Energy indicators (nrg_ind)": [
+                {
+                    "Gross and net production of electricity and derived heat by type of plant and operator": "nrg_ind_peh"
+                },
+                {
+                    "Gross production of electricity and derived heat from combustible fuels by type of plant and operator": "nrg_ind_pehcf"
+                },
+                {
+                    "Gross production of electricity and derived heat from non-combustible fuels by type of plant and operator": "nrg_ind_pehnf"
+                },
+                {
+                    "Production of electricity and heat by autoproducers, by type of plant": "nrg_ind_pehap"
+                },
+                {
+                    "Energy efficiency": "nrg_ind_eff"
+                },
+                {
+                    "Energy intensity": "nrg_ind_ei"
+                },
+                {
+                    "Energy productivity": "nrg_ind_ep"
+                },
+                {
+                    "Available energy, energy supply and final energy consumption per capita": "nrg_ind_esc"
+                },
+                {
+                    "Energy imports dependency": "nrg_ind_id"
+                },
+                {
+                    "Import dependency on third countries by fuel type": "nrg_ind_id3cf"
+                },
+                {
+                    "Natural gas import dependency by country of origin": "nrg_ind_idogas"
+                },
+                {
+                    "Oil and petroleum products import dependency by country of origin": "nrg_ind_idooil"
+                },
+                {
+                    "Share of fossil fuels in gross available energy": "nrg_ind_ffgae"
+                },
+                {
+                    "Share of fuels in final energy consumption": "nrg_ind_fecf"
+                },
+                {
+                    "Electricity production and self-consumption by sector and fuel": "nrg_ind_epsc"
+                },
+                {
+                    "Energy import origin concentration index by fuel": "nrg_ind_ioc"
+                },
+                {
+                    "Diversity index of energy supply": "nrg_ind_di"
+                },
+                {
+                    "Diversity index of final energy consumption by sector": "nrg_ind_difec"
+                },
+                {
+                    "Energy self-reliance": "nrg_ind_esr"
+                }
+            ]
+        },
+        {
+            "Share of energy from renewable sources (nrg_ind_share)": [
+                {
+                    "Share of energy from renewable sources": "nrg_ind_ren"
+                },
+                {
+                    "Use of renewables for transport - details": "nrg_ind_urtd"
+                },
+                {
+                    "Use of renewables for electricity - details": "nrg_ind_ured"
+                },
+                {
+                    "Use of renewables for heating and cooling - details": "nrg_ind_urhcd"
+                },
+                {
+                    "Calculation of overall target - details": "nrg_ind_cotd"
+                },
+                {
+                    "Heat pumps - technical characteristics by technology and climate": "nrg_ind_hptctc"
+                },
+                {
+                    "Heat pumps - ambient heat captured by technology and climate": "nrg_ind_ahbtc"
+                },
+                {
+                    "Statistical transfers, joint projects and joint support schemes": "nrg_ind_stjpjss"
+                },
+                {
+                    "Contribution of renewable fuels to gross final consumption of energy": "nrg_ind_rfce"
+                },
+                {
+                    "Share of renewable fuels in gross final consumption of energy from renewables": "nrg_ind_rfcer"
+                },
+                {
+                    "Share of renewable fuels in total gross final consumption of energy": "nrg_ind_rftce"
+                },
+                {
+                    "Renewable cooling - ambient energy by technology": "nrg_ind_rcaebt"
+                },
+                {
+                    "Renewable cooling - technical characteristics by technology": "nrg_ind_rctcbt"
+                },
+                {
+                    "Imports of biomethane through the grid": "nrg_ind_ibmg"
+                },
+                {
+                    "Exports of biomethane through the grid": "nrg_ind_ebmg"
+                }
+            ]
+        },
+        {
+            "Energy infrastructure and capacities (nrg_inf)": [
+                {
+                    "Electricity production capacities by main fuel groups and operator": "nrg_inf_epc"
+                },
+                {
+                    "Electricity production capacities for renewables and wastes": "nrg_inf_epcrw"
+                },
+                {
+                    "Electricity production capacities for combustible fuels by technology and operator": "nrg_inf_epct"
+                },
+                {
+                    "Liquid biofuels production capacities": "nrg_inf_lbpc"
+                },
+                {
+                    "Solar thermal collectors' surface": "nrg_inf_stcs"
+                },
+                {
+                    "Heat pumps - technical characteristics by technologies": "nrg_inf_hptc"
+                },
+                {
+                    "Nuclear energy facilities": "nrg_inf_nuc"
+                },
+                {
+                    "Batteries power capacities and energy storage": "nrg_inf_bt"
+                }
+            ]
+        },
+        {
+            "District heating and district cooling (DH-DC) (nrg_inf_dhdc)": []
+        },
+        {
+            "Combined heat and power (CHP) generation (nrg_inf_chp)": []
+        },
+        {
+            "Stocks (nrg_stk)": [
+                {
+                    "Stock levels for oil products": "nrg_stk_oil"
+                },
+                {
+                    "Stock levels for gaseous and liquefied natural gas": "nrg_stk_gas"
+                }
+            ]
+        },
+        {
+            "Trade by partner country (nrg_t)": [
+                {
+                    "Imports (nrg_ti)": [
+                        {
+                            "Imports of solid fossil fuels by partner country": "nrg_ti_sff"
+                        },
+                        {
+                            "Imports of oil and petroleum products by partner country": "nrg_ti_oil"
+                        },
+                        {
+                            "Imports of natural gas by partner country": "nrg_ti_gas"
+                        },
+                        {
+                            "Imports of biofuels by partner country": "nrg_ti_bio"
+                        },
+                        {
+                            "Imports of electricity and derived heat by partner country": "nrg_ti_eh"
+                        }
+                    ]
+                },
+                {
+                    "Exports (nrg_te)": [
+                        {
+                            "Exports of solid fossil fuels by partner country": "nrg_te_sff"
+                        },
+                        {
+                            "Exports of oil and petroleum products by partner country": "nrg_te_oil"
+                        },
+                        {
+                            "Exports of natural gas by partner country": "nrg_te_gas"
+                        },
+                        {
+                            "Exports of biofuels by partner country": "nrg_te_bio"
+                        },
+                        {
+                            "Exports of electricity and derived heat by partner country": "nrg_te_eh"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Energy statistics - quantities, monthly data (nrg_quantm)": []
+        },
+        {
+            "Supply, transformation and consumption - commodity balances - monthly data (nrg_cb_m)": [
+                {
+                    "Supply and transformation of solid fossil fuels - monthly data": "nrg_cb_sffm"
+                },
+                {
+                    "Supply and transformation of oil and petroleum products - monthly data": "nrg_cb_oilm"
+                },
+                {
+                    "Crude oil supply - monthly data": "nrg_cb_cosm"
+                },
+                {
+                    "Supply, transformation and consumption of gas - monthly data": "nrg_cb_gasm"
+                },
+                {
+                    "Supply, transformation and consumption of electricity - monthly data": "nrg_cb_em"
+                },
+                {
+                    "Electricity available to internal market": "nrg_cb_eim"
+                },
+                {
+                    "Net electricity generation by type of fuel - monthly data": "nrg_cb_pem"
+                }
+            ]
+        },
+        {
+            "Trade by partner country (nrg_t_m)": [
+                {
+                    "Imports (nrg_ti_m)": []
+                },
+                {
+                    "Exports (nrg_te_m)": []
+                }
+            ]
+        },
+        {
+            "Stocks (nrg_stk_m)": [
+                {
+                    "Stock levels for oil products - monthly data": "nrg_stk_oilm"
+                },
+                {
+                    "Oil stocks held for other countries - monthly data": "nrg_stk_oom"
+                },
+                {
+                    "Oil stocks held abroad - monthly data": "nrg_stk_oam"
+                },
+                {
+                    "Emergency oil stocks in days equivalent - monthly data": "nrg_stk_oem"
+                },
+                {
+                    "Stock levels for gas products - monthly data": "nrg_stk_gasm"
+                }
+            ]
+        },
+        {
+            "Trade by partner country - historical data (nrg_t_mh)": [
+                {
+                    "Imports (nrg_ti_mh)": [
+                        {
+                            "Imports - solid fuels - monthly data": "nrg_122m"
+                        },
+                        {
+                            "Imports - electricity - monthly data": "nrg_125m"
+                        }
+                    ]
+                },
+                {
+                    "Exports (nrg_te_mh)": [
+                        {
+                            "Exports - solid fuels - monthly data": "nrg_132m"
+                        },
+                        {
+                            "Exports - electricity - monthly data": "nrg_135m"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Energy statistics - quantities, short-term monthly data (nrg_quantstm)": [
+                {
+                    "Supply oil - short term monthly data": "nrg_jodi"
+                },
+                {
+                    "Supply natural gas - short term monthly data": "nrg_ind_343m"
+                },
+                {
+                    "Supply electricity - short term monthly data": "nrg_ind_342m"
+                }
+            ]
+        },
+        {
+            "Energy statistics - supply, transformation, consumption (nrg_10m)": [
+                {
+                    "Supply and transformation of solid fuels - monthly data": "nrg_101m"
+                },
+                {
+                    "Supply and transformation of oil - monthly data": "nrg_102m"
+                },
+                {
+                    "Supply of gas - monthly data": "nrg_103m"
+                },
+                {
+                    "Supply of electricity - monthly data": "nrg_105m"
+                }
+            ]
+        },
+        {
+            "Energy statistics - imports (nrg_12m)": [
+                {
+                    "Imports - oil - monthly data": "nrg_123m"
+                },
+                {
+                    "Imports - gas - monthly data": "nrg_124m"
+                }
+            ]
+        },
+        {
+            "Energy statistics - exports (nrg_13m)": [
+                {
+                    "Exports - oil - monthly data": "nrg_133m"
+                },
+                {
+                    "Exports - gas - monthly data": "nrg_134m"
+                }
+            ]
+        },
+        {
+            "Energy statistics - oil stocks (nrg_14m)": [
+                {
+                    "Oil stocks - stock levels - monthly data": "nrg_141m"
+                },
+                {
+                    "Oil stocks - stocks held for other countries and stocks held abroad - monthly data": "nrg_142m"
+                },
+                {
+                    "Oil stocks - emergency stocks in days equivalent - monthly data": "nrg_143m"
+                }
+            ]
+        },
+        {
+            "Energy statistics - natural gas and electricity prices (from 2007 onwards) (nrg_pc)": [
+                {
+                    "Gas prices for household consumers - bi-annual data (from 2007 onwards)": "nrg_pc_202"
+                },
+                {
+                    "Gas prices for non-household consumers - bi-annual data (from 2007 onwards)": "nrg_pc_203"
+                },
+                {
+                    "Electricity prices for household consumers - bi-annual data (from 2007 onwards)": "nrg_pc_204"
+                },
+                {
+                    "Electricity prices for non-household consumers - bi-annual data (from 2007 onwards)": "nrg_pc_205"
+                },
+                {
+                    "Household consumption volumes of gas by consumption bands": "nrg_pc_202_v"
+                },
+                {
+                    "Non-household consumption volumes of gas by consumption bands": "nrg_pc_203_v"
+                },
+                {
+                    "Household consumption volumes of electricity by consumption bands": "nrg_pc_204_v"
+                },
+                {
+                    "Non-household consumption volumes of electricity by consumption bands": "nrg_pc_205_v"
+                },
+                {
+                    "Gas prices components for household consumers - annual data": "nrg_pc_202_c"
+                },
+                {
+                    "Gas prices components for non-household consumers - annual data": "nrg_pc_203_c"
+                },
+                {
+                    "Electricity prices components for household consumers - annual data (from 2007 onwards)": "nrg_pc_204_c"
+                },
+                {
+                    "Electricity prices components for non-household consumers - annual data (from 2007 onwards)": "nrg_pc_205_c"
+                },
+                {
+                    "Share for transmission and distribution in the network cost for gas and electricity - annual data": "nrg_pc_206"
+                }
+            ]
+        },
+        {
+            "Energy statistics - natural gas and electricity prices (until 2007) (nrg_pc_h)": [
+                {
+                    "Gas prices for domestic consumers - bi-annual data (until 2007)": "nrg_pc_202_h"
+                },
+                {
+                    "Gas prices for industrial consumers - bi-annual data (until 2007)": "nrg_pc_203_h"
+                },
+                {
+                    "Electricity prices for domestic consumers - bi-annual data (until 2007)": "nrg_pc_204_h"
+                },
+                {
+                    "Electricity prices for industrial consumers - bi-annual data (until 2007)": "nrg_pc_205_h"
+                },
+                {
+                    "Electricity - marker prices - bi-annual data (until 2007)": "nrg_pc_206_h"
+                }
+            ]
+        },
+        {
+            "Energy statistics - market structure indicators - natural gas and electricity (nrg_market)": [
+                {
+                    "Energy market indicator": "nrg_ind_market"
+                }
+            ]
+        },
+        {
+            "Energy statistics - cooling and heating degree days (nrg_chdd)": [
+                {
+                    "Cooling and heating degree days by country - annual data": "nrg_chdd_a"
+                },
+                {
+                    "Cooling and heating degree days by country - monthly data": "nrg_chdd_m"
+                },
+                {
+                    "Cooling and heating degree days by NUTS 3 regions - annual data": "nrg_chddr2_a"
+                },
+                {
+                    "Cooling and heating degree days by NUTS 3 regions - monthly data": "nrg_chddr2_m"
+                }
+            ]
+        }
+    ]
+}
