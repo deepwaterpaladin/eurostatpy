@@ -1,0 +1,4 @@
+click
+pandas
+requests
+terminaltables
