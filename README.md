@@ -15,4 +15,4 @@ coming soon...
 ## Further Reading
 
 - [EuroStat Data](https://ec.europa.eu/eurostat/web/main/data/database)
-- [StatsCan API](https://wikis.ec.europa.eu/display/EUROSTATHELP/API+-+Getting+started+with+statistics+API)
+- [EuroStat API](https://wikis.ec.europa.eu/display/EUROSTATHELP/API+-+Getting+started+with+statistics+API)
