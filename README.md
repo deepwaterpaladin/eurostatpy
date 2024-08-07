@@ -1,5 +1,7 @@
 # EuroStatPy
 
+[![Upload Python Package](https://github.com/deepwaterpaladin/eurostatpy/actions/workflows/publish.yml/badge.svg)](https://github.com/deepwaterpaladin/eurostatpy/actions/workflows/publish.yml)
+
 Basic package for querying &amp; downloading EuroStat data by dataset name or ID
 
 Allows for querying datasets via plain text search or table ID.
