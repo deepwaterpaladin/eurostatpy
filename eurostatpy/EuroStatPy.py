@@ -2,6 +2,7 @@ from .jsonstatpy import JsonStatDataSet
 import pandas as pd
 import json
 import aiohttp
+import os
 
 
 class EuroStatPy:
@@ -95,7 +96,8 @@ class EuroStatPy:
         return items
 
     def __get_datasets(self):
-        path = ".schema/eu_database.json"
+        path = os.path.join(os.path.dirname(
+            __file__),"schema", "eu_database.json")
         with open(path, 'r') as file:
             data = json.load(file)
         return self.__flatten_json(data)
