@@ -1,3 +1,3 @@
-from src.eurostatpy import EuroStatPy
+from .EuroStatPy import EuroStatPy
 
 __all__ = ['EuroStatPy']
