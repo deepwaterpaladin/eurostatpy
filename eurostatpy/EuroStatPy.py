@@ -1,4 +1,4 @@
-from jsonstatpy import JsonStatDataSet
+from .jsonstatpy import JsonStatDataSet
 import pandas as pd
 import json
 import aiohttp
