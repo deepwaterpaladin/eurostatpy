@@ -96,7 +96,7 @@ class EuroStatPy:
         return items
 
     def __get_datasets(self):
-        path = os.path.join(,"schema", "eu_database.json")
+        path = os.path.join("schema", "eu_database.json")
         with open(path, 'r') as file:
             data = json.load(file)
         return self.__flatten_json(data)
