@@ -6,7 +6,7 @@ Allows for querying datasets via plain text search or table ID.
 
 ## Installation
 
-`pip install statscanpy`
+`pip install eurostatpy`
 
 ## Usage
 
