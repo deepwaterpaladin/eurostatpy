@@ -2,6 +2,8 @@
 
 [![Upload Python Package](https://github.com/deepwaterpaladin/eurostatpy/actions/workflows/publish.yml/badge.svg)](https://github.com/deepwaterpaladin/eurostatpy/actions/workflows/publish.yml)
 
+[![Unit Tests](https://github.com/deepwaterpaladin/eurostatpy/actions/workflows/qa-tests.yml/badge.svg)](https://github.com/deepwaterpaladin/eurostatpy/actions/workflows/qa-tests.yml)
+
 Basic package for querying &amp; downloading EuroStat data by dataset name or ID. Currently saves data into `JSONStat` [format](https://github.com/26fe/jsonstat.py).
 
 Allows for querying datasets via plain text search or table ID.
