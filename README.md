@@ -15,7 +15,7 @@ Allows for querying datasets via plain text search or table ID.
 ### Download Data by Name
 
 ```python
-from eurostatpy.EuroStatPy import EuroStatPy
+from eurostatpy import EuroStatPy
 euroStat = EuroStatPy()
 euroStat.get_table_from_name("Energy taxes by paying sector")
 ```
