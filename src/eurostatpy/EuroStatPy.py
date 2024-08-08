@@ -30,7 +30,15 @@ class EuroStatPy:
             return jsonStatDataSet
         else:
             return f"API returned type {data['class']} which isn't currently supported by the package."
+    
+    async def get_table_from_id_as_pandas(self, table_id: str, index:str, filter:dict[str,str]=None, content:str="label") -> pd.DataFrame:
+        jsd = await self.get_table_from_id(table_id)
+        return jsd.to_data_frame(index, content=content, blocked_dims=filter)
 
+    async def get_table_from_name_as_pandas(self, table_name: str, index:str, filter:dict[str,str]={}, content:str="label") -> pd.DataFrame:
+        jsd = await self.get_table_from_name(table_name)
+        return jsd.to_data_frame(index, content=content, blocked_dims=filter)
+    
     @property
     def datasets(self) -> list[str]:
         raw_datasets = self.__get_datasets()

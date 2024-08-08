@@ -236,7 +236,12 @@ class JsonStatDataSet:
         :param lst: [0,3,4]
         :returns: value at dimension [0,3,4]
         """
-        return self.__value[self.lint_as_idx(lst)]
+        try:
+            return self.__value[self.lint_as_idx(lst)]
+        except Exception as e:
+            # print(f"Could not find {self.lint_as_idx(lst)} in {self.__value}")
+            return np.nan
+
 
     #
     # dataset can be access using different type of indexes
@@ -318,9 +323,10 @@ class JsonStatDataSet:
         :param lst: list of integer
         :returns: an integer index into values
         """
-        s = np.array(self.__pos2mult)
+        s = np.array(self.__pos2mult, dtype=int)
         r = s * lst
-        return np.sum(r)
+        # return np.sum(r)
+        return str(np.sum(r))
 
     def idx_as_lint(self, idx):
         """ 10 -> [<int1>, <int2>, ...]
@@ -429,25 +435,18 @@ class JsonStatDataSet:
 
             nrd = nr_dim - 1
             cur_dim = vec_dimension_reorder[nrd]
-            # se la posizione non e bloccata allora puoi far andare avanti la cifra
             if not vec_pos_blocked[cur_dim]:
                 vec_pos[cur_dim] += 1
 
-            # se non si arrivati all'ultima dimensione
-            # e se la dimensione corrente non e al massimo valore o se la dimensione corrente e bloccata
             while nrd >= 0 and \
                     (vec_pos[cur_dim] == pos2size[cur_dim] or vec_pos_blocked[cur_dim]):
 
-                # se la posizione non e' bloccata allora puoi far partire il valore dall'inizio
                 if not vec_pos_blocked[cur_dim]:
                     vec_pos[cur_dim] = 0
 
-                # esamina la prossima posizione
                 nrd -= 1
-                # se la dimensione corrente non e' la prima
                 if nrd >= 0:
                     cur_dim = vec_dimension_reorder[nrd]
-                    # se la dimensione corrente non e bloccata puoi farla avanzare
                     if not vec_pos_blocked[cur_dim]:
                         vec_pos[cur_dim] += 1
 
@@ -524,7 +523,7 @@ class JsonStatDataSet:
 
         :param index:
         :param content:
-        :param blocked_dims:
+        :param blocked_dims: 
         :param order:
         :param value_column:
 

@@ -12,38 +12,50 @@ Allows for querying datasets via plain text search or table ID.
 
 ## Usage
 
-### Download Data by Name
+### Importing
 
 ```python
 from eurostatpy import EuroStatPy
 euroStat = EuroStatPy()
-euroStat.get_table_from_name("Energy taxes by paying sector")
 ```
 
-### Download Data by Table ID
+### Download Data by Name
+
+```python
+euroStat.get_table_from_name("Energy taxes by paying sector")
+>>> `JSONStat` object
+
+euroStat.get_table_from_name_as_pandas("Energy taxes by paying sector")
+>>> `pandas.DataFrame` object
+```
+
+### Download Data by ID
 
 ```python
 euroStat.get_table_from_id("rail_tf_ns20_hu")
+>>> `JSONStat` object
+
+euroStat.get_table_from_id_as_pandas("rail_tf_ns20_hu")
+>>> `pandas.DataFrame` object
 ```
 
 ### List Avaiable Table Names
 
 ```python
 euroStat.datasets
->>> ['Population connected to wastewater treatment plants', ...]
+>>> ["Population connected to wastewater treatment plants", ...]
 ```
 
 ### List Avaiable Table IDs
 
 ```python
 euroStat.codes
->>> ['env_waspb', ...]
+>>> ["env_waspb", "rail_tf_ns20_hu", ...]
 ```
 
 ## TODO
 
 1. Write test(s)
-1. Add pandas support
 1. Add pyspark support
 
 ## Further Reading
