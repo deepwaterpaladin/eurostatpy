@@ -208,9 +208,6 @@
                 {
                     "Air transport measurement - freight and mail": [
                         {
-                            "Overview of the freight and mail air transport by country and airports": "avia_goo"
-                        },
-                        {
                             "Freight and mail air transport by type of schedule, transport coverage and country": "avia_gooc"
                         },
                         {
@@ -862,9 +859,6 @@
                                     "Train traffic on the rail network - Belgium (2005)": "rail_tf_ns_be"
                                 },
                                 {
-                                    "Train traffic on the rail network - Bulgaria (2005)": "rail_tf_ns_bg"
-                                },
-                                {
                                     "Train traffic on the rail network - Czechia (2005)": "rail_tf_ns_cz"
                                 },
                                 {
@@ -884,9 +878,6 @@
                                 },
                                 {
                                     "Train traffic on the rail network - France (2005)": "rail_tf_ns_fr"
-                                },
-                                {
-                                    "Train traffic on the rail network - Croatia (2005)": "rail_tf_ns_hr"
                                 },
                                 {
                                     "Train traffic on the rail network - Hungary (2005)": "rail_tf_ns_hu"
@@ -916,9 +907,6 @@
                                     "Train traffic on the rail network - Portugal (2005)": "rail_tf_ns_pt"
                                 },
                                 {
-                                    "Train traffic on the rail network - Romania (2005)": "rail_tf_ns_ro"
-                                },
-                                {
                                     "Train traffic on the rail network - Sweden (2005)": "rail_tf_ns_se"
                                 },
                                 {
@@ -929,9 +917,6 @@
                                 },
                                 {
                                     "Train traffic on the rail network - Turkey (2005)": "rail_tf_ns_tr"
-                                },
-                                {
-                                    "Train traffic on the rail network - North Macedonia (2005)": "rail_tf_ns_mk"
                                 }
                             ]
                         },
@@ -1164,12 +1149,6 @@
         {
             "Environmental protection expenditure - historical data (env_epe_h)": [
                 {
-                    "Environmental protection expenditure accounts (until 2021)": "env_ac_epea_h"
-                },
-                {
-                    "Environmental protection expenditure and revenues (until 2013)": "env_eper_h"
-                },
-                {
                     "Environmental protection expenditure - euro per inhabitant and % of GDP (1996-2013)": "env_ac_exp2"
                 },
                 {
@@ -1387,13 +1366,6 @@
         }
     ],
     "Energy": [
-        {
-            "Energy statistics - quantities (nrg_quant)": [
-                {
-                    "Energy statistics - quantities, annual data": "nrg_quanta"
-                }
-            ]
-        },
         {
             "Energy balances (nrg_bal)": [
                 {

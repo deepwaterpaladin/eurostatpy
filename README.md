@@ -66,11 +66,6 @@ euroStat.list_datasets()
      513. Dataset: Cooling and heating degree days by NUTS 3 regions - monthly data | Code: nrg_chddr2_m"
 ```
 
-## TODO
-
-1. Write test(s)
-1. Add pyspark support
-
 ## Further Reading
 
 - [EuroStat Data](https://ec.europa.eu/eurostat/web/main/data/database)
