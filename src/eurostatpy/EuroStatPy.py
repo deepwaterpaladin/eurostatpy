@@ -31,14 +31,6 @@ class EuroStatPy:
         else:
             return f"API returned type {data['class']} which isn't currently supported by the package."
 
-    def get_table_from_id_as_pandas(self, table_id: str) -> pd.DataFrame:
-        jsd = self.get_table_from_id(table_id)
-        return jsd.to_data_frame()
-
-    def get_table_from_name_as_pandas(self, table_name: str) -> pd.DataFrame:
-        jsd = self.get_table_from_name(table_name)
-        return jsd.to_data_frame()
-
     @property
     def datasets(self) -> list[str]:
         raw_datasets = self.__get_datasets()
