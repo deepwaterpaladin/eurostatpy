@@ -46,7 +46,6 @@ euroStat.codes
 1. Add pandas support
 1. Add pyspark support
 
-
 ## Further Reading
 
 - [EuroStat Data](https://ec.europa.eu/eurostat/web/main/data/database)
