@@ -15,13 +15,35 @@ class EuroStatPy:
     - since_time_period (str): A query parameter to filter data since a specific time period. For performance reasons, most datasets are only available from 2020 to present (resolution coming v.1.1.0).
     """
     def __init__(self) -> None:
-         """
+        """
         Initializes the EuroStatPy object.
         """
         self.base = "https://ec.europa.eu/eurostat/api/dissemination/statistics/1.0/data/"
         self.tail = "?format=JSON&lang=EN"
         self.since_time_period = "&sinceTimePeriod=2020"
 
+    @property
+    def datasets(self) -> list[str]:
+        """
+        Retrieves a list of dataset IDs available in the local Eurostat schema.
+
+        Returns:
+        - list[str]: A list of dataset IDs.
+        """
+        raw_datasets = self.__get_datasets()
+        return [i[0].split('/')[-1] for i in raw_datasets]
+
+    @property
+    def codes(self) -> list[str]:
+        """
+        Retrieves a list of dataset codes available in the local Eurostat schema.
+
+        Returns:
+        - list[str]: A list of dataset codes.
+        """
+        raw_datasets = self.__get_datasets()
+        return [i[-1] for i in raw_datasets]
+    
     async def get_table_from_id(self, table_id: str) -> JsonStatDataSet:
         """
         Retrieves a dataset from the Eurostat API using the dataset's ID.
@@ -60,7 +82,7 @@ class EuroStatPy:
             raise Exception(f"API returned type {data['class']} which isn't currently supported by the package.")
     
     async def get_table_from_id_as_pandas(self, table_id: str, index:str, filter:dict[str,str]=None, content:str="label") -> pd.DataFrame:
-         """
+        """
         Retrieves a dataset from the Eurostat API using the dataset's ID and converts it to a pandas DataFrame.
 
         Args:
@@ -90,28 +112,6 @@ class EuroStatPy:
         """
         jsd = await self.get_table_from_name(table_name)
         return jsd.to_data_frame(index, content=content, blocked_dims=filter)
-    
-    @property
-    def datasets(self) -> list[str]:
-        """
-        Retrieves a list of dataset IDs available in the local Eurostat schema.
-
-        Returns:
-        - list[str]: A list of dataset IDs.
-        """
-        raw_datasets = self.__get_datasets()
-        return [i[0].split('/')[-1] for i in raw_datasets]
-
-    @property
-    def codes(self) -> list[str]:
-        """
-        Retrieves a list of dataset codes available in the local Eurostat schema.
-
-        Returns:
-        - list[str]: A list of dataset codes.
-        """
-        raw_datasets = self.__get_datasets()
-        return [i[-1] for i in raw_datasets]
 
     def list_datasets(self) -> None:
         """
@@ -189,7 +189,7 @@ class EuroStatPy:
         return self.__flatten_json(data)
 
     def __get_id_from_name(self, table_name: str) -> str:
-         """
+        """
         Retrieves the dataset ID based on the dataset's name.
 
         Args:
