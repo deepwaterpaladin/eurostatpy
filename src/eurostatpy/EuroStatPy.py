@@ -42,12 +42,12 @@ class EuroStatPy:
     @property
     def datasets(self) -> list[str]:
         raw_datasets = self.__get_datasets()
-        return list(set(i[0].split('/')[-1] for i in raw_datasets))
+        return [i[0].split('/')[-1] for i in raw_datasets]
 
     @property
     def codes(self) -> list[str]:
         raw_datasets = self.__get_datasets()
-        return list(set(i[-1] for i in raw_datasets))
+        return [i[-1] for i in raw_datasets]
 
     def list_datasets(self) -> None:
         datasets = self.__get_datasets()
