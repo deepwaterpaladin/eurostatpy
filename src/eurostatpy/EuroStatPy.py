@@ -1,6 +1,6 @@
 from .jsonstatpy import JsonStatDataSet
+from .utilities import read_xml_to_dict
 import pandas as pd
-import json
 import aiohttp
 import os
 
@@ -23,26 +23,48 @@ class EuroStatPy:
         self.since_time_period = "&sinceTimePeriod=2020"
 
     @property
-    def datasets(self) -> list[str]:
+    def datasets_en(self) -> list[str]:
         """
-        Retrieves a list of dataset IDs available in the local Eurostat schema.
+        Retrieves a list of English dataset IDs available in the local Eurostat schema.
 
         Returns:
         - list[str]: A list of dataset IDs.
         """
-        raw_datasets = self.__get_datasets()
-        return [i[0].split('/')[-1] for i in raw_datasets]
+        raw_datasets = self.__get_datasets(language="en").items()
+        return [i[0] for i in raw_datasets]
+    
+    @property
+    def datasets_fr(self) -> list[str]:
+        """
+        Retrieves a list of French dataset IDs available in the local Eurostat schema.
+
+        Returns:
+        - list[str]: A list of dataset IDs.
+        """
+        raw_datasets = self.__get_datasets(language="fr").items()
+        return [i[0] for i in raw_datasets]
+    
+    @property
+    def datasets_de(self) -> list[str]:
+        """
+        Retrieves a list of German dataset names available in the local Eurostat schema.
+
+        Returns:
+        - list[str]: A list of dataset IDs.
+        """
+        raw_datasets = self.__get_datasets(language="de").items()
+        return [i[0] for i in raw_datasets]
 
     @property
-    def codes(self) -> list[str]:
+    def codes(self) -> set[str]:
         """
         Retrieves a list of dataset codes available in the local Eurostat schema.
 
         Returns:
         - list[str]: A list of dataset codes.
         """
-        raw_datasets = self.__get_datasets()
-        return [i[-1] for i in raw_datasets]
+        raw_datasets = self.__get_datasets().items()
+        return set([i[1] for i in raw_datasets])
     
     async def get_table_from_id(self, table_id: str) -> JsonStatDataSet:
         """
@@ -113,15 +135,14 @@ class EuroStatPy:
         jsd = await self.get_table_from_name(table_name)
         return jsd.to_data_frame(index, content=content, blocked_dims=filter)
 
-    def list_datasets(self) -> None:
+    def list_datasets(self, language:str="en") -> None:
         """
         Prints a list of available datasets with their corresponding codes from the local Eurostat schema.
         """
-        datasets = self.__get_datasets()
+        datasets = self.__get_datasets(language).items()
         idx = 1
         for ds in datasets:
-            spds = ds[0].split('/')
-            print(f"{idx}. Dataset: {spds[-1]} | Code: {ds[1]}")
+            print(f"{idx}. Dataset: {ds[0]} | Code: {ds[1]}")
             idx += 1
 
     async def __query_api(self, table_id: str, retry_url: str = None) -> dict:
@@ -150,43 +171,15 @@ class EuroStatPy:
                     raise Exception(
                         f"API returned with status code: {response.status}\n{await response.text()}")
 
-    def __flatten_json(self, json_obj, parent_key='') -> list[tuple]:
-        """
-        Recursively flattens a nested JSON object into a list of tuples.
-
-        Args:
-        - json_obj (dict or list): The JSON object to flatten.
-        - parent_key (str): The base key string to prefix the keys in the tuples.
-
-        Returns:
-        - list[tuple[str, str]]: A list of tuples where each tuple is (key, value).
-        """
-        items = []
-        if isinstance(json_obj, dict):
-            for k, v in json_obj.items():
-                new_key = f"{parent_key}/{k}" if parent_key else k
-                if isinstance(v, dict) or isinstance(v, list):
-                    items.extend(self.__flatten_json(v, new_key))
-                else:
-                    items.append((new_key, v))
-        elif isinstance(json_obj, list):
-            for i, item in enumerate(json_obj):
-                new_key = f"{parent_key}/{i}" if parent_key else str(i)
-                items.extend(self.__flatten_json(item, new_key))
-
-        return items
-
-    def __get_datasets(self):
+    def __get_datasets(self, language:str=None) -> dict: # type: ignore
         """
         Loads and flattens the Eurostat dataset schema from a local JSON file.
 
         Returns:
         - list[tuple[str, str]]: A list of tuples containing the dataset path and code.
         """
-        path = os.path.join(os.path.dirname(__file__),"schema", "eu_database.json")
-        with open(path, 'r') as file:
-            data = json.load(file)
-        return self.__flatten_json(data)
+        path = os.path.join(os.path.dirname(__file__),"schema", "table_of_contents.xml")
+        return read_xml_to_dict(path, language)
 
     def __get_id_from_name(self, table_name: str) -> str:
         """
@@ -204,7 +197,7 @@ class EuroStatPy:
         try:
             datasets = self.__get_datasets()
             # TODO: Fix this
-            for k, v in datasets:
+            for k, v in datasets.items():
                 if table_name in k:
                     return v
             raise Exception(f"Table name: {table_name} not found in dataset.")

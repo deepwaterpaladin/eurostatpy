@@ -4,7 +4,7 @@
 
 [![Unit Tests](https://github.com/deepwaterpaladin/eurostatpy/actions/workflows/qa-tests.yml/badge.svg)](https://github.com/deepwaterpaladin/eurostatpy/actions/workflows/qa-tests.yml)
 
-Basic package for querying &amp; downloading EuroStat data by dataset name or ID. Currently saves data into `JSONStat` [format](https://github.com/26fe/jsonstat.py).
+Basic package for querying &amp; downloading EuroStat data by dataset name or ID. Currently saves data into `JSONStat` [format](https://github.com/26fe/jsonstat.py) or a `pandas.DataFrame`.
 
 Allows for querying datasets via plain text search or table ID.
 
@@ -41,29 +41,42 @@ euroStat.get_table_from_id_as_pandas("rail_tf_ns20_hu")
 >>> `pandas.DataFrame` object
 ```
 
-### List Avaiable Table Names
+### List Available Table Names in English, French, and German
 
 ```python
-euroStat.datasets
+euroStat.datasets_en
 >>> ["Population connected to wastewater treatment plants", ...]
+euroStat.datasets_fr
+>>> ["Compte courant - données trimestrielles", ...]
+euroStat.datasets_de
+>>> ["Leistungsbilanz - vierteljährliche Daten", ...]
 ```
 
-### List Avaiable Table IDs
+### List Available Table IDs
 
 ```python
 euroStat.codes
 >>> ["env_waspb", "rail_tf_ns20_hu", ...]
 ```
 
-### Print Avaiable Datasets
+### Print Available Datasets in English, French, and German
 
 ```python
 euroStat.list_datasets()
->>> "1. Dataset: Commercial airports by type | Code: avia_if_arp
-     2. Dataset: Airport infrastructures by type | Code: avia_if_typ
-     3. Dataset: Airport connections to transport infrastructure | Code: avia_if_arp_co
+>>> "1. Dataset: Current account - quarterly data | Code: ei_bpm6ca_q
+     2. Dataset: Financial account - quarterly data | Code: tipsbp48
      ...
-     476. Dataset: Cooling and heating degree days by NUTS 3 regions - monthly data | Code: nrg_chddr2_m"
+     6930. Dataset: Youth unemployment ratio by sex, age and NUTS 2 regions | Code: yth_empl_140"
+euroStat.list_datasets(language = "fr")
+>>> "1. Compte courant - données trimestrielles | Code: ei_bpm6ca_q
+     2. Dataset: Compte financier - données trimestrielles | Code: tipsbp48
+     ...
+     6920. Dataset: Ratio de chômage des jeunes par sexe, âge et région NUTS 2 | Code: yth_empl_140"
+euroStat.list_datasets(language = "de")
+>>> "1. Dataset: Leistungsbilanz - vierteljährliche Daten | Code: tipsbp40
+     2. Dataset: Finanzierungskonto - vierteljährliche Daten | Code: tipsbp48
+     ...
+     6922. Dataset: Anteil der arbeitslosen Jugendlichen nach Geschlecht, Alter und NUTS-2-Regionen | Code: yth_empl_140"
 ```
 
 ## Further Reading
