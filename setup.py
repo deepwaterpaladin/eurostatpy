@@ -10,7 +10,7 @@ setup(
     include_package_data=True,
     package_data={
         'eurostatpy':[
-            'schema/eu_database.json'
+            'schema/table_of_contents.xml'
         ]
     }
 )
