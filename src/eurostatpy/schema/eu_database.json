@@ -50,13 +50,7 @@
                             "Air passenger transport by type of schedule, transport coverage and country": "avia_paoc"
                         },
                         {
-                            "Air passenger transport by type of schedule, transport coverage and main airports": "avia_paoa"
-                        },
-                        {
                             "Air passenger transport between reporting countries": "avia_paocc"
-                        },
-                        {
-                            "Air passenger transport between main airports and partner reporting countries": "avia_paoac"
                         },
                         {
                             "Air passenger transport by aircraft model, distance bands and transport coverage": "avia_paodis"
@@ -67,19 +61,6 @@
                     "National air passenger transport by country and airports": [
                         {
                             "National air passenger transport by reporting country": "avia_panc"
-                        },
-                        {
-                            "National air passenger transport by main airports": "avia_pana"
-                        }
-                    ]
-                },
-                {
-                    "International intra-EU air passenger transport by country and airports": [
-                        {
-                            "International intra-EU air passenger transport by reporting country and EU partner country": "avia_paincc"
-                        },
-                        {
-                            "International intra-EU air passenger transport between main airports and EU partner countries": "avia_painac"
                         }
                     ]
                 },
@@ -87,9 +68,6 @@
                     "International extra-EU air passenger transport by country and airports": [
                         {
                             "International extra-EU air passenger transport by reporting country and partner world regions and countries": "avia_paexcc"
-                        },
-                        {
-                            "International extra-EU air passenger transport between main airports and partner world regions and countries": "avia_paexac"
                         }
                     ]
                 },
@@ -211,13 +189,7 @@
                             "Freight and mail air transport by type of schedule, transport coverage and country": "avia_gooc"
                         },
                         {
-                            "Fright and mail air transport by type of schedule, transport coverage and main airports": "avia_gooa"
-                        },
-                        {
                             "Freight and mail air transport between reporting countries": "avia_goocc"
-                        },
-                        {
-                            "Freight and mail air transport between main airports and partner reporting countries": "avia_gooac"
                         },
                         {
                             "Freight and mail air transport by aircraft model, distance bands and transport coverage": "avia_goodis"
@@ -225,30 +197,14 @@
                     ]
                 },
                 {
-                    "National freight and mail air transport by country and airports": [
-                        {
-                            "National freight and mail air transport by reporting country": "avia_gonc"
-                        },
-                        {
-                            "National freight and mail air transport by main airports": "avia_gona"
-                        }
-                    ]
-                },
-                {
                     "International intra-EU freight and mail air transport by country and airports": [
                         {
                             "International intra-EU freight and mail air transport by reporting country and EU partner country": "avia_goincc"
-                        },
-                        {
-                            "International intra-EU freight and mail air transport between main airports and EU partner countries": "avia_goinac"
                         }
                     ]
                 },
                 {
                     "International extra-EU freight and mail air transport by country and airports": [
-                        {
-                            "International extra-EU freight and mail air transport by reporting country and partner world regions and countries": "avia_goexcc"
-                        },
                         {
                             "International extra-EU freight and mail air transport between main airports and partner world regions and countries": "avia_goexac"
                         }
@@ -367,15 +323,6 @@
                     "Air transport measurement - data by aircraft, airline licence (EU or non-EU), airport and country": [
                         {
                             "Aircraft traffic data by reporting country": "avia_tf_acc"
-                        },
-                        {
-                            "Air transport by aircraft model, transport coverage and main airports": "avia_tf_aca"
-                        },
-                        {
-                            "Air transport by airline licence (EU or non-EU), main airports and transport coverage": "avia_tf_ala"
-                        },
-                        {
-                            "Air transport by airline licence (EU or non-EU) and reporting airports": "avia_tf_apal"
                         },
                         {
                             "Commercial flights by reporting airport and type of schedule – monthly data (source: Eurocontrol)": "avia_tf_airpm"
@@ -1025,9 +972,6 @@
                             "Air emissions accounts for greenhouse gases by NACE Rev. 2 activity - quarterly data": "env_ac_aigg_q"
                         },
                         {
-                            "Air emissions accounts by NACE Rev. 2 activity": "env_ac_ainah_r2"
-                        },
-                        {
                             "Air emissions accounts related to road transport by NACE Rev. 2 activity": "env_ac_ainah_rd"
                         },
                         {
@@ -1096,9 +1040,6 @@
         {
             "Physical energy flow accounts (env_pefa)": [
                 {
-                    "Energy supply and use by NACE Rev. 2 activity": "env_ac_pefasu"
-                },
-                {
                     "Key indicators of physical energy flow accounts by NACE Rev. 2 activity": "env_ac_pefa04"
                 },
                 {
@@ -1163,9 +1104,6 @@
             "Environmental goods and services sector (env_egs)": [
                 {
                     "Employment in the environmental goods and services sector": "env_ac_egss1"
-                },
-                {
-                    "Production, value added and exports in the environmental goods and services sector": "env_ac_egss2"
                 },
                 {
                     "Production, value added and employment by industry groups in the environmental goods and services sector": "env_ac_egss3"
@@ -1333,19 +1271,7 @@
                     "Carbon dioxide emission footprints (FIGARO application)": "env_ac_co2fp"
                 },
                 {
-                    "Methane emission footprints (CH4 in CO2 equivalent, FIGARO application)": "env_ac_ch4fp"
-                },
-                {
-                    "Nitrous oxide emission footprints (N2O in CO2 equivalent, FIGARO application)": "env_ac_n2ofp"
-                },
-                {
-                    "Hydrofluorocarbon emission footprints (HFC in CO2 equivalent, FIGARO application)": "env_ac_hfcfp"
-                },
-                {
                     "Perfluorocarbon emission footprints (PFC in CO2 equivalent, FIGARO application)": "env_ac_pfcfp"
-                },
-                {
-                    "Nitrogen trifluoride and sulphur hexafluoride emission footprints (NF3-SF6 in CO2 equivalent, FIGARO application)": "env_ac_nf3sf6fp"
                 },
                 {
                     "Air emission footprints (domestic technology assumption)": "env_ac_io10"
@@ -1370,9 +1296,6 @@
             "Energy balances (nrg_bal)": [
                 {
                     "Simplified energy balances": "nrg_bal_s"
-                },
-                {
-                    "Complete energy balances": "nrg_bal_c"
                 },
                 {
                     "Calorific values": "nrg_bal_cv"
@@ -1588,9 +1511,6 @@
                             "Imports of solid fossil fuels by partner country": "nrg_ti_sff"
                         },
                         {
-                            "Imports of oil and petroleum products by partner country": "nrg_ti_oil"
-                        },
-                        {
                             "Imports of natural gas by partner country": "nrg_ti_gas"
                         },
                         {
@@ -1605,9 +1525,6 @@
                     "Exports (nrg_te)": [
                         {
                             "Exports of solid fossil fuels by partner country": "nrg_te_sff"
-                        },
-                        {
-                            "Exports of oil and petroleum products by partner country": "nrg_te_oil"
                         },
                         {
                             "Exports of natural gas by partner country": "nrg_te_gas"
@@ -1669,9 +1586,6 @@
                     "Oil stocks held for other countries - monthly data": "nrg_stk_oom"
                 },
                 {
-                    "Oil stocks held abroad - monthly data": "nrg_stk_oam"
-                },
-                {
                     "Emergency oil stocks in days equivalent - monthly data": "nrg_stk_oem"
                 },
                 {
@@ -1719,12 +1633,6 @@
         {
             "Energy statistics - supply, transformation, consumption (nrg_10m)": [
                 {
-                    "Supply and transformation of solid fuels - monthly data": "nrg_101m"
-                },
-                {
-                    "Supply and transformation of oil - monthly data": "nrg_102m"
-                },
-                {
                     "Supply of gas - monthly data": "nrg_103m"
                 },
                 {
@@ -1744,9 +1652,6 @@
         },
         {
             "Energy statistics - exports (nrg_13m)": [
-                {
-                    "Exports - oil - monthly data": "nrg_133m"
-                },
                 {
                     "Exports - gas - monthly data": "nrg_134m"
                 }
