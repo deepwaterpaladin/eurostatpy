@@ -63,7 +63,7 @@ euroStat.list_datasets()
      2. Dataset: Airport infrastructures by type | Code: avia_if_typ
      3. Dataset: Airport connections to transport infrastructure | Code: avia_if_arp_co
      ...
-     513. Dataset: Cooling and heating degree days by NUTS 3 regions - monthly data | Code: nrg_chddr2_m"
+     476. Dataset: Cooling and heating degree days by NUTS 3 regions - monthly data | Code: nrg_chddr2_m"
 ```
 
 ## Further Reading
