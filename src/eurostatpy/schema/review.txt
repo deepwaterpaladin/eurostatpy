@@ -1,0 +1,405 @@
+Error for bop_c6_m: maximum recursion depth exceeded in comparison
+Error for fish_ca_atl21: 'NoneType' object is not subscriptable
+Error for migr_reschst: 'NoneType' object is not subscriptable
+Error for bop_iip6_q: maximum recursion depth exceeded in comparison
+{'migr_reschst', 'bop_c6_m', 'fish_ca_atl21', 'bop_iip6_q'}
+Run 1/51 completed...
+Error for migr_reschange: 'NoneType' object is not subscriptable
+Error for fish_ca_atl34_h: 'NoneType' object is not subscriptable
+Error for sts_inpp_m: 
+Error for hlth_cd_ynrm: 
+Error for proj_19ralexp3: 
+{'sts_inpp_m', 'migr_reschange', 'proj_19ralexp3', 'fish_ca_atl34_h', 'hlth_cd_ynrm'}
+Run 2/51 completed...
+Error for migr_eipre: 
+Error for bop_euins6_a: 'NoneType' object is not subscriptable
+Error for fats_g1a_08: 
+Error for sts_trtu_q: 'NoneType' object is not subscriptable
+{'migr_eipre', 'bop_euins6_a', 'fats_g1a_08', 'sts_trtu_q'}
+Run 3/51 completed...
+Error for hsw_ph3_04: 
+Error for sts_intv_q: 'NoneType' object is not subscriptable
+Error for sts_inpi_q: 'NoneType' object is not subscriptable
+Error for demo_r_mwk3_ts: 'NoneType' object is not subscriptable
+Error for road_go_cta_gtt: 'NoneType' object is not subscriptable
+Error for migr_dubto: 
+{'migr_dubto', 'sts_inpi_q', 'road_go_cta_gtt', 'demo_r_mwk3_ts', 'hsw_ph3_04', 'sts_intv_q'}
+Run 4/51 completed...
+Error for lfsa_qoe_3a4: 
+Error for nrg_te_oilm: 'NoneType' object is not subscriptable
+Error for nama_10r_2hhinc: 'NoneType' object is not subscriptable
+Error for lfsa_ewhan2: 
+{'nama_10r_2hhinc', 'lfsa_ewhan2', 'lfsa_qoe_3a4', 'nrg_te_oilm'}
+Run 5/51 completed...
+Error for hlth_co_disch4: 
+Error for hlth_cd_ycdrt: 
+Error for ef_lsk_main: 
+Error for env_ac_aeint_r2: 
+Error for avia_tf_ala: maximum recursion depth exceeded in comparison
+Error for avia_tf_acc: 
+Error for naio_10_cp16: 
+{'naio_10_cp16', 'ef_lsk_main', 'avia_tf_ala', 'avia_tf_acc', 'hlth_co_disch4', 'env_ac_aeint_r2', 'hlth_cd_ycdrt'}
+Run 6/51 completed...
+Error for bop_its_deth: 'NoneType' object is not subscriptable
+Error for ef_lu_ovcropesu: 'NoneType' object is not subscriptable
+Error for hsw_ph3_05: 'NoneType' object is not subscriptable
+Error for fish_ca_ind51_h: 'NoneType' object is not subscriptable
+Error for bop_eu6_m: 'NoneType' object is not subscriptable
+Error for hlth_cd_yinfo: 
+Error for migr_resoth: 'NoneType' object is not subscriptable
+Error for bop_c6_q: maximum recursion depth exceeded in comparison
+{'bop_its_deth', 'migr_resoth', 'bop_c6_q', 'bop_eu6_m', 'hlth_cd_yinfo', 'ef_lu_ovcropesu', 'fish_ca_ind51_h', 'hsw_ph3_05'}
+Run 7/51 completed...
+Error for ef_oga_main: 
+Error for naio_10_fcp_ii2: 
+Error for avia_pana: 'NoneType' object is not subscriptable
+Error for ef_lu_aliplant: 'NoneType' object is not subscriptable
+Error for nasa_10_f_tr: 
+{'avia_pana', 'naio_10_fcp_ii2', 'ef_lu_aliplant', 'ef_oga_main', 'nasa_10_f_tr'}
+Run 8/51 completed...
+Error for avia_par_es: 
+Error for bop_euins6_iip: 'NoneType' object is not subscriptable
+Error for demo_r_mwk3_10: 'NoneType' object is not subscriptable
+Error for hsw_ph3_03: 
+Error for fish_ld_uk: 'NoneType' object is not subscriptable
+Error for migr_asytpfq: 'NoneType' object is not subscriptable
+Error for prc_ppp_ind: 'NoneType' object is not subscriptable
+Error for hlth_co_disch1t: 
+Error for naio_10_fcp_u2: 
+{'hsw_ph3_03', 'hlth_co_disch1t', 'bop_euins6_iip', 'avia_par_es', 'demo_r_mwk3_10', 'prc_ppp_ind', 'naio_10_fcp_u2', 'fish_ld_uk', 'migr_asytpfq'}
+Run 9/51 completed...
+Error for lfsq_egdn2: 
+Error for fish_aq2a: 'NoneType' object is not subscriptable
+Error for fish_ld_fr: 'NoneType' object is not subscriptable
+{'fish_ld_fr', 'lfsq_egdn2', 'fish_aq2a'}
+Run 10/51 completed...
+Error for ef_ov_lusum: 'NoneType' object is not subscriptable
+Error for prc_hicp_midx: 
+Error for avia_gooac: 'NoneType' object is not subscriptable
+Error for migr_asydcfstq: 'NoneType' object is not subscriptable
+Error for nasq_10_f_cp: 'NoneType' object is not subscriptable
+Error for avia_gona: 'NoneType' object is not subscriptable
+Error for bop_fdi_pos_r2: 'NoneType' object is not subscriptable
+{'bop_fdi_pos_r2', 'nasq_10_f_cp', 'avia_gooac', 'ef_ov_lusum', 'avia_gona', 'migr_asydcfstq', 'prc_hicp_midx'}
+Run 11/51 completed...
+Error for nrg_stk_oilm: 
+Error for demo_r_mlife: 
+Error for migr_asyumaccm: 'NoneType' object is not subscriptable
+Error for hsw_ph3_07: 'NoneType' object is not subscriptable
+Error for sts_intvnd_m: 'NoneType' object is not subscriptable
+{'hsw_ph3_07', 'nrg_stk_oilm', 'demo_r_mlife', 'sts_intvnd_m', 'migr_asyumaccm'}
+Run 12/51 completed...
+Error for sts_selb_q: 'NoneType' object is not subscriptable
+Error for naio_10_fcp_ip2: 
+Error for fish_ca_atl271: 'NoneType' object is not subscriptable
+Error for hlth_co_hosday: 
+Error for naio_10_fcp_ip3: 
+{'naio_10_fcp_ip3', 'sts_selb_q', 'hlth_co_hosday', 'fish_ca_atl271', 'naio_10_fcp_ip2'}
+Run 13/51 completed...
+Error for naidsq_10_f_tr: 
+Error for migr_asyumpctm: 'NoneType' object is not subscriptable
+Error for hlth_co_hosdayt: 
+Error for fish_ld_ie: 'NoneType' object is not subscriptable
+Error for naio_10_fcp_u1: 
+Error for avia_paoa: 'NoneType' object is not subscriptable
+{'fish_ld_ie', 'migr_asyumpctm', 'hlth_co_hosdayt', 'naio_10_fcp_u1', 'avia_paoa', 'naidsq_10_f_tr'}
+Run 14/51 completed...
+Error for migr_pop3ctb: 
+Error for naio_10_cp1700: 
+Error for isoc_ec_ibuy: 
+{'migr_pop3ctb', 'isoc_ec_ibuy', 'naio_10_cp1700'}
+Run 15/51 completed...
+Error for fish_aq2b: 'NoneType' object is not subscriptable
+Error for hlth_co_disch2t: 
+Error for bop_rem6: 'NoneType' object is not subscriptable
+Error for ext_st_eu27_2020sitc: 
+Error for ef_ov_kvaaesu: 'NoneType' object is not subscriptable
+Error for lfsa_ewhuna: 
+Error for gov_10q_ggdebt: 'NoneType' object is not subscriptable
+Error for avia_gooa: 'NoneType' object is not subscriptable
+Error for migr_dubri: 
+{'ext_st_eu27_2020sitc', 'migr_dubri', 'fish_aq2b', 'gov_10q_ggdebt', 'ef_ov_kvaaesu', 'hlth_co_disch2t', 'lfsa_ewhuna', 'avia_gooa', 'bop_rem6'}
+Run 16/51 completed...
+Error for road_go_ctq_tt: 'NoneType' object is not subscriptable
+Error for sbs_sc_ind_r2: 
+Error for bop_gdp6_q: 'NoneType' object is not subscriptable
+Error for sts_inpi_m: 'NoneType' object is not subscriptable
+Error for fish_aq_qh: 'NoneType' object is not subscriptable
+Error for bop_euins6_q: maximum recursion depth exceeded in comparison
+Error for fish_ca_atl47: 'NoneType' object is not subscriptable
+{'bop_euins6_q', 'fish_ca_atl47', 'sbs_sc_ind_r2', 'sts_inpi_m', 'road_go_ctq_tt', 'bop_gdp6_q', 'fish_aq_qh'}
+Run 17/51 completed...
+Error for lfsq_epgana: 
+Error for migr_resfas: 'NoneType' object is not subscriptable
+{'migr_resfas', 'lfsq_epgana'}
+Run 18/51 completed...
+Error for ef_ls_gzforage: 'NoneType' object is not subscriptable
+Error for migr_asywitha: 
+Error for fish_ld_it: 'NoneType' object is not subscriptable
+Error for hlth_co_disch3m: 
+Error for ef_lu_alcereal: 'NoneType' object is not subscriptable
+Error for fish_ld_mt: 'NoneType' object is not subscriptable
+Error for agr_r_accts: 
+Error for lfsq_egan22d: 
+{'hlth_co_disch3m', 'fish_ld_mt', 'agr_r_accts', 'lfsq_egan22d', 'fish_ld_it', 'migr_asywitha', 'ef_ls_gzforage', 'ef_lu_alcereal'}
+Run 19/51 completed...
+Error for migr_resfam: 'NoneType' object is not subscriptable
+Error for sts_setu_q: 'NoneType' object is not subscriptable
+Error for nrg_stk_oam: 
+Error for migr_asyaccm: 'NoneType' object is not subscriptable
+Error for demo_r_mwk_10: 'NoneType' object is not subscriptable
+{'sts_setu_q', 'demo_r_mwk_10', 'migr_resfam', 'nrg_stk_oam', 'migr_asyaccm'}
+Run 20/51 completed...
+Error for ef_m_org: 
+Error for ef_mp_training: 
+Error for nrg_101m: 'NoneType' object is not subscriptable
+Error for bd_9bd_sz_cl_r2: 
+Error for fish_ca_atl272: 'NoneType' object is not subscriptable
+Error for ei_isin_m: 'NoneType' object is not subscriptable
+Error for migr_resedu: 'NoneType' object is not subscriptable
+{'migr_resedu', 'ef_mp_training', 'fish_ca_atl272', 'nrg_101m', 'ef_m_org', 'bd_9bd_sz_cl_r2', 'ei_isin_m'}
+Run 21/51 completed...
+Error for demo_r_mwk_05: 'NoneType' object is not subscriptable
+Error for hlth_cd_ycdrm: 
+Error for fish_ca_atl41_h: 'NoneType' object is not subscriptable
+Error for fish_ca_atl27: 'NoneType' object is not subscriptable
+Error for fish_aq_q: 'NoneType' object is not subscriptable
+Error for fish_ca_atl41: 'NoneType' object is not subscriptable
+Error for nasa_10_f_gl: 
+{'fish_ca_atl41', 'nasa_10_f_gl', 'fish_aq_q', 'fish_ca_atl27', 'demo_r_mwk_05', 'hlth_cd_ycdrm', 'fish_ca_atl41_h'}
+Run 22/51 completed...
+Error for naidsa_10_f_tr: 
+Error for ilc_lvho05a: Response payload is not completed: <TransferEncodingError: 400, message='Not enough data for satisfy transfer length header.'>. ConnectionResetError(104, 'Connection reset by peer')
+Error for hsw_ph3_09: 'NoneType' object is not subscriptable
+Error for migr_asytpfm: 'NoneType' object is not subscriptable
+{'ilc_lvho05a', 'migr_asytpfm', 'naidsa_10_f_tr', 'hsw_ph3_09'}
+Run 23/51 completed...
+Error for sts_inlb_a: 'NoneType' object is not subscriptable
+Error for gov_10a_exp: 
+Error for ef_ls_ovesu: 'NoneType' object is not subscriptable
+Error for migr_asywithm: maximum recursion depth exceeded in comparison
+Error for fish_ld_pl: 'NoneType' object is not subscriptable
+Error for naio_10_fcp_ii1: 
+Error for sts_intvd_q: 'NoneType' object is not subscriptable
+Error for ei_eteu27_2020_m: 
+{'sts_intvd_q', 'migr_asywithm', 'fish_ld_pl', 'sts_inlb_a', 'naio_10_fcp_ii1', 'ei_eteu27_2020_m', 'ef_ls_ovesu', 'gov_10a_exp'}
+Run 24/51 completed...
+Error for pat_ep_ripc: 
+Error for bop_fdi6_pos: 
+Error for apro_cpshr: 'NoneType' object is not subscriptable
+Error for hlth_co_disch1: 
+Error for sts_trtu_a: 'NoneType' object is not subscriptable
+Error for ef_lu_pcreg: 'NoneType' object is not subscriptable
+Error for bd_9ac_l_form_r2: 
+{'bop_fdi6_pos', 'bd_9ac_l_form_r2', 'sts_trtu_a', 'apro_cpshr', 'pat_ep_ripc', 'ef_lu_pcreg', 'hlth_co_disch1'}
+Run 25/51 completed...
+Error for hlth_co_disch4m: 
+Error for ef_lus_allcrops: 
+Error for nrg_ti_oil: 
+Error for lfst_r_lfsd2pwn: 
+Error for avia_paoac: 'NoneType' object is not subscriptable
+{'avia_paoac', 'lfst_r_lfsd2pwn', 'nrg_ti_oil', 'ef_lus_allcrops', 'hlth_co_disch4m'}
+Run 26/51 completed...
+Error for nrg_bal_c: 
+Error for fish_ld_dk: 'NoneType' object is not subscriptable
+Error for migr_asyumwitm: 'NoneType' object is not subscriptable
+Error for sts_intvnd_q: 'NoneType' object is not subscriptable
+Error for fish_ld_de: 'NoneType' object is not subscriptable
+Error for fish_ca_inw09: 'NoneType' object is not subscriptable
+Error for demo_r_mwk2_05: 'NoneType' object is not subscriptable
+{'migr_asyumwitm', 'nrg_bal_c', 'demo_r_mwk2_05', 'sts_intvnd_q', 'fish_ld_dk', 'fish_ld_de', 'fish_ca_inw09'}
+Run 27/51 completed...
+Error for sts_inpp_q: 'NoneType' object is not subscriptable
+Error for bop_c6_a: 'NoneType' object is not subscriptable
+Error for nrg_ti_oilm: 'NoneType' object is not subscriptable
+Error for migr_asyrescra: 
+Error for naio_10_fcp_ip1: 
+Error for apro_mt_pheadm: 'NoneType' object is not subscriptable
+Error for bop_euins6_m: maximum recursion depth exceeded in comparison
+Error for ef_ov_lfft: 'NoneType' object is not subscriptable
+Error for migr_asyappctzm: 'NoneType' object is not subscriptable
+Error for ef_lu_pcgeo: 'NoneType' object is not subscriptable
+Error for ef_ls_ovlsureg: 'NoneType' object is not subscriptable
+Error for nrg_cb_oil: 
+{'nrg_cb_oil', 'sts_inpp_q', 'naio_10_fcp_ip1', 'ef_ls_ovlsureg', 'migr_asyappctzm', 'ef_ov_lfft', 'ef_lu_pcgeo', 'bop_euins6_m', 'apro_mt_pheadm', 'migr_asyrescra', 'bop_c6_a', 'nrg_ti_oilm'}
+Run 28/51 completed...
+Error for bop_fdi_flow_r2: 'NoneType' object is not subscriptable
+Error for nasq_10_f_tr: 'NoneType' object is not subscriptable
+Error for migr_ressw1_1: 
+Error for nrg_te_oil: 
+Error for migr_asyumdcfq: 'NoneType' object is not subscriptable
+Error for fish_ca_atl47_h: 'NoneType' object is not subscriptable
+Error for fish_ca_atl37_h: 'NoneType' object is not subscriptable
+{'migr_ressw1_1', 'fish_ca_atl47_h', 'bop_fdi_flow_r2', 'nasq_10_f_tr', 'fish_ca_atl37_h', 'nrg_te_oil', 'migr_asyumdcfq'}
+Run 29/51 completed...
+Error for avia_paexcc: 
+Error for ef_ov_luft: 'NoneType' object is not subscriptable
+Error for migr_asywitfstq: 'NoneType' object is not subscriptable
+Error for hlth_cd_yro: 
+Error for hsw_ph3_08: 
+Error for naio_10_favx: 
+{'migr_asywitfstq', 'hlth_cd_yro', 'ef_ov_luft', 'naio_10_favx', 'hsw_ph3_08', 'avia_paexcc'}
+Run 30/51 completed...
+Error for env_ac_nf3sf6fp: 'NoneType' object is not subscriptable
+Error for env_ac_pefasu: 
+Error for proj_19raasmr3: 
+Error for sts_setu_m: 'NoneType' object is not subscriptable
+Error for hlth_cd_acdr2: 
+Error for migr_asyumwifq: 'NoneType' object is not subscriptable
+Error for migr_eiord1: 'NoneType' object is not subscriptable
+{'sts_setu_m', 'proj_19raasmr3', 'migr_eiord1', 'migr_asyumwifq', 'env_ac_pefasu', 'env_ac_nf3sf6fp', 'hlth_cd_acdr2'}
+Run 31/51 completed...
+Error for naio_10_fcp_u3: 
+Error for fish_ld_nl: 'NoneType' object is not subscriptable
+Error for bop_eu6_q: maximum recursion depth exceeded in comparison
+{'naio_10_fcp_u3', 'bop_eu6_q', 'fish_ld_nl'}
+Run 32/51 completed...
+Error for ef_ah_pigs: 
+Error for lfsq_pganws: 
+Error for sts_intvd_a: 'NoneType' object is not subscriptable
+Error for migr_resict1_2: 'NoneType' object is not subscriptable
+Error for migr_emi1ctz: 
+Error for migr_resfirst: 'NoneType' object is not subscriptable
+Error for nama_10_a64_p5: 
+{'nama_10_a64_p5', 'migr_resict1_2', 'sts_intvd_a', 'migr_emi1ctz', 'ef_ah_pigs', 'migr_resfirst', 'lfsq_pganws'}
+Run 33/51 completed...
+Error for sts_inpr_a: 'NoneType' object is not subscriptable
+Error for nrg_ti_coifpm: 'NoneType' object is not subscriptable
+Error for ef_lf_size: 
+Error for sts_inpr_m: 
+{'sts_inpr_a', 'nrg_ti_coifpm', 'sts_inpr_m', 'ef_lf_size'}
+Run 34/51 completed...
+Error for migr_resvalid: 'NoneType' object is not subscriptable
+Error for ef_mp_voctraining: 
+Error for fish_ca_atl37: 'NoneType' object is not subscriptable
+Error for fish_ld_is: 'NoneType' object is not subscriptable
+Error for migr_asypenctzm: 'NoneType' object is not subscriptable
+Error for sts_inlb_q: 'NoneType' object is not subscriptable
+{'sts_inlb_q', 'fish_ld_is', 'migr_asypenctzm', 'migr_resvalid', 'ef_mp_voctraining', 'fish_ca_atl37'}
+Run 35/51 completed...
+Error for bop_its6_det: 'NoneType' object is not subscriptable
+Error for migr_asydcfina: 
+Error for migr_reslas: 'NoneType' object is not subscriptable
+Error for proj_19np: 
+Error for hlth_co_disch2m: 
+Error for sts_copr_q: 'NoneType' object is not subscriptable
+Error for ef_lus_main: 
+Error for naio_10_fcp_s1: 
+Error for sts_inpr_q: 'NoneType' object is not subscriptable
+{'sts_inpr_q', 'naio_10_fcp_s1', 'proj_19np', 'migr_asydcfina', 'sts_copr_q', 'migr_reslas', 'bop_its6_det', 'hlth_co_disch2m', 'ef_lus_main'}
+Run 36/51 completed...
+Error for demo_r_mwk3_t: 'NoneType' object is not subscriptable
+Error for naio_10_fcp_ii3: 
+Error for env_ac_hfcfp: 
+Error for migr_dubdo: 
+Error for fish_ld_lt: 'NoneType' object is not subscriptable
+Error for nrg_133m: 
+{'env_ac_hfcfp', 'demo_r_mwk3_t', 'migr_dubdo', 'naio_10_fcp_ii3', 'fish_ld_lt', 'nrg_133m'}
+Run 37/51 completed...
+Error for road_go_ta_ru: 'NoneType' object is not subscriptable
+Error for migr_acq: 
+Error for sts_setu_a: 'NoneType' object is not subscriptable
+{'sts_setu_a', 'road_go_ta_ru', 'migr_acq'}
+Run 38/51 completed...
+Error for bop_fdi_inc_r2: 'NoneType' object is not subscriptable
+Error for fish_ld_main: 'NoneType' object is not subscriptable
+Error for prc_fsc_idx: 'NoneType' object is not subscriptable
+Error for sts_intvd_m: 'NoneType' object is not subscriptable
+Error for nrg_102m: 'NoneType' object is not subscriptable
+Error for edat_lfse_33: 
+Error for naio_10_fcp_s2: 
+Error for ef_lsk_org: 
+Error for ei_isbr_m: 'NoneType' object is not subscriptable
+Error for fish_ld_se: 'NoneType' object is not subscriptable
+{'fish_ld_se', 'naio_10_fcp_s2', 'prc_fsc_idx', 'bop_fdi_inc_r2', 'ef_lsk_org', 'nrg_102m', 'edat_lfse_33', 'sts_intvd_m', 'ei_isbr_m', 'fish_ld_main'}
+Run 39/51 completed...
+Error for demo_r_mwk3_20: 'NoneType' object is not subscriptable
+Error for fish_ld_be: 'NoneType' object is not subscriptable
+Error for migr_eirtn1: maximum recursion depth exceeded in comparison
+Error for avia_tf_aca: maximum recursion depth exceeded in comparison
+Error for avia_paexac: 
+Error for earn_ses_hourly: 
+Error for ef_ah_bovine: 
+Error for sts_inlb_m: 'NoneType' object is not subscriptable
+{'ef_ah_bovine', 'sts_inlb_m', 'fish_ld_be', 'avia_tf_aca', 'demo_r_mwk3_20', 'avia_paexac', 'migr_eirtn1', 'earn_ses_hourly'}
+Run 40/51 completed...
+Error for fish_ld_cy: 'NoneType' object is not subscriptable
+Error for fish_ca_main_h: 'NoneType' object is not subscriptable
+Error for ef_lu_ofsetasid: 'NoneType' object is not subscriptable
+Error for ef_ls_ovaareg: 'NoneType' object is not subscriptable
+{'fish_ld_cy', 'ef_lu_ofsetasid', 'fish_ca_main_h', 'ef_ls_ovaareg'}
+Run 41/51 completed...
+Error for bop_its_det: 'NoneType' object is not subscriptable
+Error for nama_10_a64: 
+Error for hlth_co_inpstt: 
+Error for road_go_ta_rl: 'NoneType' object is not subscriptable
+Error for naio_10_fcp_s3: 
+{'hlth_co_inpstt', 'naio_10_fcp_s3', 'road_go_ta_rl', 'bop_its_det', 'nama_10_a64'}
+Run 42/51 completed...
+Error for demo_r_mwk2_10: 'NoneType' object is not subscriptable
+Error for sts_copr_m: 'NoneType' object is not subscriptable
+Error for fish_ld_ee: 'NoneType' object is not subscriptable
+Error for migr_resocc: 'NoneType' object is not subscriptable
+Error for demo_r_mweek3: 'NoneType' object is not subscriptable
+{'fish_ld_ee', 'sts_copr_m', 'demo_r_mweek3', 'migr_resocc', 'demo_r_mwk2_10'}
+Run 43/51 completed...
+Error for migr_asytpsm: 'NoneType' object is not subscriptable
+Error for sts_intv_a: 'NoneType' object is not subscriptable
+Error for ef_lu_ovcropaa: 'NoneType' object is not subscriptable
+Error for proj_19ranmig3: 
+{'migr_asytpsm', 'sts_intv_a', 'proj_19ranmig3', 'ef_lu_ovcropaa'}
+Run 44/51 completed...
+Error for nrg_stk_oom: 
+Error for hlth_co_disch1f: 
+Error for bd_9b_size_cl: 
+Error for fish_ld_pt: 'NoneType' object is not subscriptable
+Error for naio_10_faex: 
+Error for proj_19rp3: 
+{'proj_19rp3', 'naio_10_faex', 'nrg_stk_oom', 'bd_9b_size_cl', 'fish_ld_pt', 'hlth_co_disch1f'}
+Run 45/51 completed...
+Error for avia_painac: 
+Error for fish_ca_atl34: 'NoneType' object is not subscriptable
+Error for ef_mp_tenure: 
+Error for fish_ca_ind51: 'NoneType' object is not subscriptable
+Error for sts_inpi_a: 'NoneType' object is not subscriptable
+Error for iww_go_atygofl: 
+{'avia_painac', 'sts_inpi_a', 'ef_mp_tenure', 'fish_ca_ind51', 'fish_ca_atl34', 'iww_go_atygofl'}
+Run 46/51 completed...
+Error for fish_ca_main: 'NoneType' object is not subscriptable
+Error for avia_tf_apal: 'NoneType' object is not subscriptable
+Error for migr_dubdi: 
+Error for ef_m_farmleg: 
+Error for namq_10_a10_e: 'NoneType' object is not subscriptable
+Error for demo_r_mwk2_20: 'NoneType' object is not subscriptable
+Error for ef_oga_type: 
+Error for hlth_cd_ycdr2: 
+Error for fish_ld_no: 'NoneType' object is not subscriptable
+{'demo_r_mwk2_20', 'namq_10_a10_e', 'fish_ca_main', 'migr_dubdi', 'ef_m_farmleg', 'fish_ld_no', 'ef_oga_type', 'hlth_cd_ycdr2', 'avia_tf_apal'}
+Run 47/51 completed...
+Error for sts_inppnd_q: 'NoneType' object is not subscriptable
+Error for ef_lsk_sheep: 
+Error for fats_g1a_03: 'NoneType' object is not subscriptable
+Error for migr_asyumactm: 'NoneType' object is not subscriptable
+Error for hlth_co_disch1m: 
+Error for proj_19rdth3: 
+{'migr_asyumactm', 'hlth_co_disch1m', 'sts_inppnd_q', 'proj_19rdth3', 'ef_lsk_sheep', 'fats_g1a_03'}
+Run 48/51 completed...
+Error for fish_ca_pac87: 'NoneType' object is not subscriptable
+Error for sts_intv_m: 'NoneType' object is not subscriptable
+Error for demo_r_mwk2_ts: 'NoneType' object is not subscriptable
+Error for fish_aq_v: 'NoneType' object is not subscriptable
+Error for fish_ca_atl21_h: 'NoneType' object is not subscriptable
+Error for migr_eirtn2: 'NoneType' object is not subscriptable
+{'fish_ca_atl21_h', 'fish_ca_pac87', 'fish_aq_v', 'sts_intv_m', 'migr_eirtn2', 'demo_r_mwk2_ts'}
+Run 49/51 completed...
+Error for hsw_ph3_06: 
+Error for fish_ld_es: 'NoneType' object is not subscriptable
+Error for lfsq_epgan2: 
+Error for nama_10_nfa_st: 'NoneType' object is not subscriptable
+Error for migr_asyappctza: 
+Error for migr_resvas: 'NoneType' object is not subscriptable
+{'migr_asyappctza', 'migr_resvas', 'fish_ld_es', 'lfsq_epgan2', 'hsw_ph3_06', 'nama_10_nfa_st'}
+Run 50/51 completed...
+Error for sts_inppnd_m: 
+{'sts_inppnd_m'}
+Run 51/51 completed...
