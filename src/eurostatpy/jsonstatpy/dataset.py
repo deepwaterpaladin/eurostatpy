@@ -536,7 +536,7 @@ class JsonStatDataSet:
                            blocked_dims=blocked_dims,
                            value_column=value_column)
         if index:
-            df = df.set_index([index], inplace=True)
+            df = df.set_index([index])
         return df
 
     #
