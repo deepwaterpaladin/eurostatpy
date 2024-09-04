@@ -535,11 +535,8 @@ class JsonStatDataSet:
                            rtype=pd.DataFrame,
                            blocked_dims=blocked_dims,
                            value_column=value_column)
-        # TODO: avoid creating a new dataframe (?)
-        # df.index = df[index]
-        # del df[index]
         if index:
-            df = df.set_index([index])
+            df = df.set_index([index], inplace=True)
         return df
 
     #
