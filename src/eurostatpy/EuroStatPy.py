@@ -117,15 +117,7 @@ class EuroStatPy:
         - pd.DataFrame: The dataset as a pandas DataFrame.
         """
         jsd = await self.get_table_from_id(table_id)
-        jsd_df = jsd.to_data_frame(index, content=content, blocked_dims=filter)
-        
-        # Convert the index column to integers
-        jsd_df[index] = jsd_df[index].astype(int)
-        
-        # Set the specified column as the index
-        jsd_df.set_index(index, inplace=True)
-        
-        return jsd_df
+        return jsd.to_data_frame(index, content=content, blocked_dims=filter)
 
     async def get_table_from_name_as_pandas(self, table_name: str, index:str, filter:dict[str,str]={}, content:str="label") -> pd.DataFrame:
         """
@@ -141,15 +133,7 @@ class EuroStatPy:
         - pd.DataFrame: The dataset as a pandas DataFrame.
         """
         jsd = await self.get_table_from_name(table_name)
-        jsd_df = jsd.to_data_frame(index, content=content, blocked_dims=filter)
-        
-        # Convert the index column to integers
-        jsd_df[index] = jsd_df[index].astype(int)
-        
-        # Set the specified column as the index
-        jsd_df.set_index(index, inplace=True)
-        
-        return jsd_df
+        return jsd.to_data_frame(index, content=content, blocked_dims=filter)
 
 
     def list_datasets(self, language:str="en") -> None:
